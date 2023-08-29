@@ -55,6 +55,7 @@
     "source-map-js": "^1.0.2",
     "streamsearch": "^1.1.0",
     "svelte-hmr": "^0.15.3",
+    "sveltekit-i18n": "^2.4.2",
     "totalist": "^3.0.1",
     "undici": "^5.23.0",
     "vitefu": "^0.2.4"

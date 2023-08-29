@@ -1,4 +1,6 @@
 <script>
+  import { t } from '$lib/lang/translations';
+
   export let data;
 
   $: l = data.dict;
@@ -10,7 +12,7 @@
 </svelte:head>
 
 <section>
-  <h1>Kokot</h1>
+  <p>geg</p>
 </section>
 
 <style lang="scss">
