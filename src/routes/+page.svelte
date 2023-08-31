@@ -1,19 +1,18 @@
 <script>
   import { t } from '$lib/lang/translations';
-
-  export let data;
-
-  $: l = data.dict;
+  import Landing from '../components/Home/Landing/Landing.svelte';
+  import Showcase from '../components/Home/Landing/Showcase.svelte';
 </script>
 
 <svelte:head>
-  <title>Web Agency - Tommy Hoang</title>
+  <title>{$t('home.head.title')}</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-  <p>geg</p>
-</section>
+<div>
+  <Landing {t} />
+  <Showcase {t} />
+</div>
 
 <style lang="scss">
 </style>

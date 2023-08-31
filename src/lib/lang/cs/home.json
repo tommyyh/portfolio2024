@@ -6,5 +6,14 @@
     "contact": "Kontakt",
     "english": "English",
     "czech": "Čeština"
+  },
+  "head": {
+    "title": "Webová Agentura - Tommy Hoang"
+  },
+  "landing": {
+    "sub": "Vývoj & Design webů",
+    "title": "Úžasné Webové Stránky, Které Zvýší Vaše Tržby",
+    "text": "Naše úchvatné webové stránky získá pozornost návštěvníků a zvýší vaše tržby. Díky úžasné struktuře a designu zvýšíme váš zisk několikrát.",
+    "cta": "Získat více tržeb"
   }
 }

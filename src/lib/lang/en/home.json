@@ -6,5 +6,14 @@
     "contact": "Contact Us",
     "english": "English",
     "czech": "Čeština"
+  },
+  "head": {
+    "title": "Web Agency - Tommy Hoang"
+  },
+  "landing": {
+    "sub": "Web Development & Design",
+    "title": "Breathtaking Websites That Will Increase Your Sales",
+    "text": "Our breathtaking websites keep visitors attention and maximize conversions. With stunning design and call-to-actions, we'll elevate your sales and boost your ROI.",
+    "cta": "Get More Sales"
   }
 }

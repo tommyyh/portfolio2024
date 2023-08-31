@@ -1,10 +1,11 @@
 <script>
+  import { t } from '$lib/lang/translations';
   import Header from './Header.svelte';
   import './styles.css';
 </script>
 
 <div class="app">
-  <Header />
+  <Header {t} />
 
   <main>
     <slot />
