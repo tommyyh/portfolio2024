@@ -29,7 +29,7 @@
 
     return () => {
       document.removeEventListener('mousedown', clickAnywhere);
-      document.addEventListener('scroll', onScroll);
+      document.removeEventListener('scroll', onScroll);
     };
   });
 </script>

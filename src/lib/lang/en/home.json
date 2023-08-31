@@ -15,5 +15,22 @@
     "title": "Breathtaking Websites That Will Increase Your Sales",
     "text": "Our breathtaking websites keep visitors attention and maximize conversions. With stunning design and call-to-actions, we'll elevate your sales and boost your ROI.",
     "cta": "Get More Sales"
+  },
+  "whyUs": {
+    "sub": "Why choose us?",
+    "title": "Rise Above Your Competition To Get More Client.",
+    "text": "Being ahead of your competition is one of the most important things you need, in order to have a successful and thriving business. Our sales-driven approach will help your business rise above the others and ultimately get more leads.",
+    "reason1": {
+      "title": "Creative & Sales-driven Design",
+      "text": "Our breathtaking and sales-driven design focuses on catching the visitors attention, leading to more potential customers and sales."
+    },
+    "reason2": {
+      "title": "Persuasive Design & Typography",
+      "text": "Our focus is having persuasive design and typography. These are essential to winning customer’s trust and getting more conversions."
+    },
+    "reason3": {
+      "title": "Trust & Credibility",
+      "text": "Our previous customers are very satisfied and we are sure you will be too. We are very flexible and gladly satisfy your needs and requests."
+    }
   }
 }
