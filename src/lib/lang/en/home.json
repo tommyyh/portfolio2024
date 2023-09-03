@@ -18,19 +18,116 @@
   },
   "whyUs": {
     "sub": "Why choose us?",
-    "title": "Rise Above Your Competition To Get More Client.",
+    "title": "Rise Above Your Competition And Get More Client.",
     "text": "Being ahead of your competition is one of the most important things you need, in order to have a successful and thriving business. Our sales-driven approach will help your business rise above the others and ultimately get more leads.",
     "reason1": {
       "title": "Creative & Sales-driven Design",
-      "text": "Our breathtaking and sales-driven design focuses on catching the visitors attention, leading to more potential customers and sales."
+      "text": "Our breathtaking and sales-driven design focuses on catching the visitors attention, leading to more potential customers and sales.",
+      "cta": "Our Work"
     },
     "reason2": {
       "title": "Persuasive Design & Typography",
-      "text": "Our focus is having persuasive design and typography. These are essential to winning customer’s trust and getting more conversions."
+      "text": "Our focus is having persuasive design and typography. These are essential to winning customer’s trust and getting more conversions.",
+      "cta": "Contact Us"
     },
     "reason3": {
       "title": "Trust & Credibility",
-      "text": "Our previous customers are very satisfied and we are sure you will be too. We are very flexible and gladly satisfy your needs and requests."
+      "text": "Our previous customers are very satisfied and we are sure you will be too. We are very flexible and gladly satisfy your needs and requests.",
+      "cta": "Our Reviews"
+    }
+  },
+  "work": {
+    "sub": "Our Past Work & Projects",
+    "title": "Our Past Work For Clients All Over The World",
+    "text": "We've made numerous websites for satisfied clients globally. Explore our portfolio showcasing our exceptional websites of all kinds, including e-commerce, brochures, and more.",
+    "cta": "View Our Work"
+  },
+  "services": {
+    "sub": "Our Services",
+    "title": "We Offer Services Tailored to Your Needs and Goals",
+    "text": "Enhance your digital presence with our expert web development and design services, creating captivating and high-performing websites for success.",
+    "list": {
+      "1": {
+        "title": "Web Solutions",
+        "sub": "General services",
+        "imageName": "home",
+        "list": {
+          "1": {
+            "title": "Web Development",
+            "sub": "Custom Coding",
+            "img": "code"
+          },
+          "2": {
+            "title": "Web Design",
+            "sub": "Figma",
+            "img": "palette"
+          },
+          "3": {
+            "title": "Web Redesign",
+            "sub": "Figma",
+            "img": "pencil"
+          },
+          "4": {
+            "title": "Other",
+            "sub": "Other Services For Your Needs",
+            "img": "comment"
+          }
+        }
+      },
+      "2": {
+        "title": "Technical Services",
+        "sub": "Technical",
+        "imageName": "settings",
+        "list": {
+          "1": {
+            "title": "Web Hosting",
+            "sub": "Linode, Hetzner, ...",
+            "img": "server"
+          },
+          "2": {
+            "title": "Domain Management",
+            "sub": "Namecheap, GoDaddy, ...",
+            "img": "location"
+          },
+          "3": {
+            "title": "Web Testing",
+            "sub": "Jest, Mocha, ...",
+            "img": "microscope"
+          },
+          "4": {
+            "title": "Performance Optimization",
+            "sub": "Better Speed & Load Times",
+            "img": "gauge"
+          }
+        }
+      },
+      "3": {
+        "title": "Additional Services",
+        "sub": "Additional",
+        "imageName": "bulb",
+        "list": {
+          "1": {
+            "title": "E-commerce Solutions",
+            "sub": "Custom Code, Shopify, ...",
+            "img": "cart"
+          },
+          "2": {
+            "title": "Brochure Websites",
+            "sub": "Custom Code",
+            "img": "pen"
+          },
+          "3": {
+            "title": "Web Maintenance",
+            "sub": "Prolonged Support",
+            "img": "headset"
+          },
+          "4": {
+            "title": "SEO Optimization",
+            "sub": "Google SEO, ...",
+            "img": "glass"
+          }
+        }
+      }
     }
   }
 }

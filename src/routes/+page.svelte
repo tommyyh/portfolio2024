@@ -1,8 +1,10 @@
 <script>
   import { t } from '$lib/lang/translations';
   import Landing from '../components/Home/Landing/Landing.svelte';
-  import Showcase from '../components/Home/Landing/Showcase.svelte';
-  import Whyus from '../components/Home/Landing/Whyus.svelte';
+  import Showcase from '../components/Showcase.svelte';
+  import Whyus from '../components/Home/Whyus/Whyus.svelte';
+  import Work from '../components/Home/Work/Work.svelte';
+  import Services from '../components/Home/Services/Services.svelte';
 </script>
 
 <svelte:head>
@@ -13,7 +15,9 @@
 <div>
   <Landing {t} />
   <Showcase />
-  <!-- <Whyus {t} /> -->
+  <Whyus {t} />
+  <Work {t} />
+  <Services {t} />
 </div>
 
 <style lang="scss">

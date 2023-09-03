@@ -11,7 +11,7 @@
   import JubefaImmobilienPngBlurred from '$lib/images/projects/blurred/jubefa-immobilien.png';
   import OnteePngBlurred from '$lib/images/projects/blurred/ontee.png';
   import RimmingtonPngBlurred from '$lib/images/projects/blurred/rimmington.png';
-  import Image from '../../Image.svelte';
+  import Image from './Image.svelte';
   import { onMount } from 'svelte';
 
   let images = [
@@ -55,7 +55,7 @@
   let showcase1El;
   let showcase2El;
   let sectionEl;
-  let inView = true;
+  $: inView = true;
   $: showcase1Images = [];
   $: showcase2Images = [];
 
@@ -100,15 +100,16 @@
     // Handle if its visible
     const handleVisibility = () => {
       const boundingRect = sectionEl.getBoundingClientRect();
-      inView = boundingRect.top < window.innerHeight && boundingRect.bottom > 0;
+      inView =
+        boundingRect.top <= window.innerHeight && boundingRect.bottom >= 0;
     };
 
     document.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', handleVisibility);
+    window.addEventListener('scroll', handleVisibility);
 
     return () => {
       document.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleVisibility);
+      window.removeEventListener('scroll', handleVisibility);
     };
   });
 </script>

@@ -61,7 +61,7 @@
     h4 {
       font-size: 0.77em;
       font-weight: 500;
-      color: var(--sub);
+      color: var(--sub2);
     }
 
     h1 {

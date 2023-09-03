@@ -15,5 +15,31 @@
     "title": "Úžasné Webové Stránky, Které Zvýší Vaše Tržby",
     "text": "Naše úchvatné webové stránky získá pozornost návštěvníků a zvýší vaše tržby. Díky úžasné struktuře a designu se váš zisk exponentálně zvýší.",
     "cta": "Získat více tržeb"
+  },
+  "whyUs": {
+    "sub": "Proč Vybrat Nás?",
+    "title": "Překonejte Svojí Konkurenci A Získejte Více Klientů.",
+    "text": "Vyniknout nad vaší konkurencí je jedna z nejdůležitějších věcí, kterou potřebujete k tomu, abyste měli úspěšný a prosperující podnik. Náš přístup zaměřený na prodej pomůže vaší firmě vyniknout nad ostatními a v důsledku získat více potenciálních zákazníků.",
+    "reason1": {
+      "title": "Kreativní & Obchdoně-Řízený Design",
+      "text": "Náš úchvatný a obchodně orientovaný design se zaměřuje na upoutání pozornosti návštěvníků, což vede k většímu počtu potenciálních zákazníků a tržeb.",
+      "cta": "Naše Práce"
+    },
+    "reason2": {
+      "title": "Přesvědčivý Design & Text",
+      "text": "Zaměřujeme se hlavně na přesvědčivý design a typografii. Ty jsou zásadní pro získání důvěry zákazníků a dosažení většího počtu prodeje.",
+      "cta": "Kontaktjte Nás"
+    },
+    "reason3": {
+      "title": "Důvěra & Věrohodnost",
+      "text": "Naši předchozí zákazníci jsou velmi spokojení a jsme si jisti, že vy budete také. Jsme velmi flexibilní a rádi vyhovíme vašim potřebám a požadavkům.",
+      "cta": "Naše Recenze"
+    }
+  },
+  "work": {
+    "sub": "Naše předchozí práce a projekty",
+    "title": "Naše předchozí práce pro klienty po celém světě",
+    "text": "Vytvořili jsme řadu webových stránek pro spokojené klienty po celém světě. Prohlédněte si naše portfolio, které ukazuje úžasné webové stránky každého druhu, včetně e-shopů, brožur a dalších.",
+    "cta": "Zobrazit naši práci"
   }
 }

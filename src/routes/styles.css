@@ -17,17 +17,31 @@ body {
 
 
 	--primary: #fff;
-	--second: #0A0D18;
+	--second: #08080B;
 	--accent: #0C0A0B;
 
 	--primary2: #ededed;
-	--sub: #3D3D3D;
+	--sub: #B4B4B4;
+	--sub2: #3D3D3D;
 	--primary2-text: #A6A6A6;
 	--background-blur: rgb(0, 0, 0, 0.5);
+	--cta-bg: #3B3B3D;
+	--cta-title: #fff;
+
+	--dark-sub: #4D4D4D;
+	--dark-text: #A7A7A7;
+
+	--services-sub: #818181;
+	--services-sub2: #909192;
+	--services-bg: #F3F5F7;
 
 
 	--padding: 1em;
 
 
 	--font: 'Satoshi', sans-serif;
+}
+
+button {
+	font-family: var(--font);
 }
