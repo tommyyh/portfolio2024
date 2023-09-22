@@ -129,5 +129,53 @@
         }
       }
     }
+  },
+  "process": {
+    "sub": "Our Process",
+    "title": "What Will The Entire Web Process Look Like?",
+    "text": "Knowing the entire process is essential to creating the ideal and seamless website in the shortest amount time. This will allow us to be on the same side and efficiently communicate.",
+    "list": {
+      "1": {
+        "title": "1, Contact & Discuss",
+        "text": "The first step is to reach out to us and together, we will discuss your needs. We’ll come up with a tailored solution, that you will be satisfied with."
+      },
+      "2": {
+        "title": "2, Creating The Perfect Structure",
+        "text": "The next step is for us to make the ideal web structure, ensuring seamless navigation and user engagement, in order to maximize conversions."
+      },
+      "3": {
+        "title": "3, Designing A Prototype",
+        "text": "Creating a prototype design to visualize the website. In this stage, making changes and refining is very easy and fast, so it is important to make it perfect."
+      },
+      "4": {
+        "title": "4, Development & Deployment",
+        "text": "After having the ideal prototype, we will bring it to life. We will also perfect technical aspects like speed, SEO, accessibility and more. And of course deploy it."
+      }
+    }
+  },
+  "reviews": {
+    "sub": "Our Reviews",
+    "title": "Have A Look At What Others Have To Say About Us",
+    "text": "Our clients love working with us! Read their testimonials and discover how we've helped businesses thrive with our web solutions.",
+    "list": {
+      "1": {
+        "author": "Dr. Murtaza Sajid",
+        "sub": "Rimmingtons COVID Team",
+        "text": "Just wanted to say a huge thanks to Tommy for his incredible work and vision with our website. He was very responsive and kept me up to date with the whole journey answering many questions along the way. He revolutionized the way we take bookings and had a huge influence on the success of how we now operate. Would and will use his services again in the future.",
+        "rating": "4.8"
+      },
+      "2": {
+        "author": "Jan Lužecký",
+        "sub": "Ontee Team",
+        "text": "Doporučuji spolupráci s Tommym. Je spolehlivý a rychle se učí novým věcem. Je bezproblémový.",
+        "rating": "4.2"
+      },
+      "3": {
+        "author": "Justus-Konrad Flade",
+        "sub": "JubefaGmbH CEO",
+        "text": "Tommy is a guy that finds solutions, where they are needed the most. That's why working with him is a pleasure.",
+        "rating": "4.6"
+      }
+    }
   }
 }

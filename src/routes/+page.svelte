@@ -5,6 +5,8 @@
   import Whyus from '../components/Home/Whyus/Whyus.svelte';
   import Work from '../components/Home/Work/Work.svelte';
   import Services from '../components/Home/Services/Services.svelte';
+  import Process from '../components/Home/Process/Process.svelte';
+  import Reviews from '../components/Reviews/Reviews.svelte';
 </script>
 
 <svelte:head>
@@ -18,6 +20,8 @@
   <Whyus {t} />
   <Work {t} />
   <Services {t} />
+  <Process {t} />
+  <Reviews {t} />
 </div>
 
 <style lang="scss">

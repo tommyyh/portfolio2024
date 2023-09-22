@@ -68,6 +68,7 @@
     h4 {
       font-weight: 600;
       font-size: 1.02em;
+      line-height: 100%;
       color: var(--second);
     }
 

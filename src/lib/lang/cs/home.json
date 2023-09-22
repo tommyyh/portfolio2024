@@ -41,5 +41,93 @@
     "title": "Naše předchozí práce pro klienty po celém světě",
     "text": "Vytvořili jsme řadu webových stránek pro spokojené klienty po celém světě. Prohlédněte si naše portfolio, které ukazuje úžasné webové stránky každého druhu, včetně e-shopů, brožur a dalších.",
     "cta": "Zobrazit naši práci"
+  },
+  "services": {
+    "sub": "Naše služby",
+    "title": "Nabízíme služby na míru vašim potřebám a cílům",
+    "text": "Zlepšete svou digitální prezenci díky našim odborným službám v oblasti vývoje a designu webových stránek a vytvořte poutavé a vysoce výkonné webové stránky, které vám přinesou nové zákazníky.",
+    "list": {
+      "1": {
+        "title": "Webová stránky",
+        "sub": "Obecné služby",
+        "imageName": "home",
+        "list": {
+          "1": {
+            "title": "Vývoj webu",
+            "sub": "Vlastní kódování",
+            "img": "code"
+          },
+          "2": {
+            "title": "Webový design",
+            "sub": "Figma",
+            "img": "palette"
+          },
+          "3": {
+            "title": "Redesign webu",
+            "sub": "Figma",
+            "img": "pencil"
+          },
+          "4": {
+            "title": "Ostatní",
+            "sub": "Další služby pro vaše potřeby",
+            "img": "comment"
+          }
+        }
+      },
+      "2": {
+        "title": "Technické služby",
+        "sub": "Technická stránka",
+        "imageName": "settings",
+        "list": {
+          "1": {
+            "title": "Webový hosting",
+            "sub": "Linode, Hetzner, ...",
+            "img": "server"
+          },
+          "2": {
+            "title": "Správa domény",
+            "sub": "Namecheap, GoDaddy, ...",
+            "img": "location"
+          },
+          "3": {
+            "title": "Testování webu",
+            "sub": "Jest, Mocha, ...",
+            "img": "microscope"
+          },
+          "4": {
+            "title": "Optimalizace výkonu",
+            "sub": "Lepší rychlost a doba načítání",
+            "img": "gauge"
+          }
+        }
+      },
+      "3": {
+        "title": "Další služby",
+        "sub": "Další",
+        "imageName": "bulb",
+        "list": {
+          "1": {
+            "title": "E-shopy",
+            "sub": "Vlastní kód, Shopify, ...",
+            "img": "cart"
+          },
+          "2": {
+            "title": "Brožurové weby",
+            "sub": "Vlastní kód",
+            "img": "pen"
+          },
+          "3": {
+            "title": "Údržba webu",
+            "sub": "Prodloužená podpora",
+            "img": "headset"
+          },
+          "4": {
+            "title": "Optimalizace SEO",
+            "sub": "Google SEO, ...",
+            "img": "glass"
+          }
+        }
+      }
+    }
   }
 }
