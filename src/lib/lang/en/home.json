@@ -167,7 +167,7 @@
       "2": {
         "author": "Jan Lužecký",
         "sub": "Ontee Team",
-        "text": "Doporučuji spolupráci s Tommym. Je spolehlivý a rychle se učí novým věcem. Je bezproblémový.",
+        "text": "I recommend working with Tommy. He is reliable and quick to learn new things. He's easy to work with. [EN Translation]",
         "rating": "4.2"
       },
       "3": {
@@ -177,5 +177,50 @@
         "rating": "4.6"
       }
     }
+  },
+  "faq": {
+    "sub": "Frequently Asked Questions",
+    "title": "Frequently Asked Questions By Our Previous Customers",
+    "text": "We understand investing in a website might be daunting, especially if you never had a website and are starting to focus on the digital side of businesses, that’s why we are here to answer questions, you might have.",
+    "list": {
+      "1": {
+        "sub": "Website cost",
+        "title": "How much will my website cost?",
+        "text": "The cost of your website will depend on factors like design complexity, features, and functionality. A basic site can range from a few hundred to a few thousand dollars, while complex e-commerce sites can cost several thousand or more."
+      },
+      "2": {
+        "sub": "Development duration",
+        "title": "How long until my website is finished?",
+        "text": "The time to complete your website hinges on its complexity. Simple websites may take a few weeks, whereas intricate projects with custom features and extensive testing could extend to several months."
+      },
+      "3": {
+        "sub": "Website benefits & more",
+        "title": "How does a website benefit my business?",
+        "text": "A well-crafted website can greatly benefit your business by expanding your online presence, attracting new customers, increasing credibility, and providing a platform to showcase your products or services."
+      },
+      "4": {
+        "sub": "Website responsiveness",
+        "title": "Will my site be mobile-friendly & responsive?",
+        "text": "Yes, your website can be made mobile-friendly and responsive, ensuring it adapts seamlessly to various devices, enhancing user experience, and improving search engine rankings."
+      },
+      "5": {
+        "sub": "Website flexibility",
+        "title": "Will my website be fully customizable?",
+        "text": "Most websites are customizable to a significant extent, allowing you to tailor design, content, and functionality to your specific needs. The extent of customization depends on your chosen platform and developer's expertise."
+      },
+      "6": {
+        "sub": "Website maintenance",
+        "title": "Will you maintain my site for me?",
+        "text": "Many web developers offer ongoing maintenance services to keep your site updated, secure, and performing optimally. Discuss maintenance options and costs with your chosen developer to ensure your website remains in top shape."
+      }
+    }
+  },
+  "footer": {
+    "sub": "Web Development & Design",
+    "title": "Breathtaking Websites That Will Increase Your Sales",
+    "text": "Our breathtaking websites keep visitors attention and maximize conversions. With stunning design and call-to-actions, we'll elevate your sales and boost ROI.",
+    "cta": "Get More Sales",
+    "name": "TommyHoang",
+    "mail": "tommyyhoangg@gmail.com"
   }
 }

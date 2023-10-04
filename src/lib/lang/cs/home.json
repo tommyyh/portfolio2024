@@ -129,5 +129,53 @@
         }
       }
     }
+  },
+  "process": {
+    "sub": "Náš proces",
+    "title": "Jak bude vypadat celý proces?",
+    "text": "Vědět celý proces je zásadní pro vytvoření ideálního a bezproblémového websitu v co nejkratším čase. To nám umožní být na stejné straně a efektivně komunikovat.",
+    "list": {
+      "1": {
+        "title": "1, Kontakt & Diskuze",
+        "text": "Prvním krokem je nás oslovit a společně probereme vaše potřeby. Navrhneme řešení na míru, se kterým budete spokojeni."
+      },
+      "2": {
+        "title": "2, Vytvoření dokonalé struktury",
+        "text": "Dalším krokem je vytvoření ideální struktury webu, která zajistí bezproblémovou navigaci a zapojení uživatelů s cílem maximalizovat tržby."
+      },
+      "3": {
+        "title": "3, Navrhování prototypu",
+        "text": "Vytvoříme návrh prototypu pro vizualizaci webové stránek. V této fázi je provádění změn a zdokonalování velmi snadné a rychlé, proto je důležité, aby bylo vše perfektní."
+      },
+      "4": {
+        "title": "4, Vývoj & Nasazení",
+        "text": "Po vytvoření ideálního prototypu, tak ho uvedeme do života. Zdokonalíme také technické aspekty, jako je rychlost, SEO, přístupnost a další. A samozřejmě ho nasadíme."
+      }
+    }
+  },
+  "reviews": {
+    "sub": "Naše recenze",
+    "title": "Podívejte se, co o nás říkají ostatní",
+    "text": "Naši klienti s námi rádi spolupracují! Přečtěte si jejich recenze a zjistěte, jak jsme díky našim webovým řešením pomohli firmám prospívat.",
+    "list": {
+      "1": {
+        "author": "Dr. Murtaza Sajid",
+        "sub": "Rimmingtons COVID Team",
+        "text": "Jen jsem chtěl Tommymu poděkovat za jeho neuvěřitelnou práci a vizi s našimi webovými stránkami. Velmi ochotně reagoval a průběžně mě informoval o celé cestě a odpovídal na mnoho otázek. Způsobil revoluci ve způsobu, jakým přijímáme rezervace, a měl obrovský vliv na úspěch toho, jak nyní fungujeme. Jeho služeb bychom využili a využijeme i v budoucnu. [CZ Translation]",
+        "rating": "4.8"
+      },
+      "2": {
+        "author": "Jan Lužecký",
+        "sub": "Ontee Team",
+        "text": "Doporučuji spolupráci s Tommym. Je spolehlivý a rychle se učí novým věcem. Je bezproblémový.",
+        "rating": "4.2"
+      },
+      "3": {
+        "author": "Justus-Konrad Flade",
+        "sub": "JubefaGmbH CEO",
+        "text": "Tommy je člověk, který nachází řešení tam, kde je jich nejvíce potřeba. Proto je s ním radost pracovat. [CZ Translation]",
+        "rating": "4.6"
+      }
+    }
   }
 }

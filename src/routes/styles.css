@@ -9,7 +9,7 @@
 body {
 	font-family: 'Satoshi', sans-serif;
 
-	margin-bottom: 900px;
+	/* margin-bottom: 900px; */
 }
 
 :root {
@@ -19,6 +19,8 @@ body {
 	--primary: #fff;
 	--second: #08080B;
 	--accent: #0C0A0B;
+	--text: #232223;
+	--title: #000211;
 
 	--primary2: #ededed;
 	--sub: #B4B4B4;
@@ -38,6 +40,14 @@ body {
 	--process1-bg: #F4F4F4;
 	--process1-title: #323232;
 	--process1-text: #3F3F3F;
+
+	--faq-title: #393942;
+	--faq-sub: #676767;
+	--faq-2: #383838;
+	--faq-3: #5B5A5A;
+
+	--footer-text: #8D8D8D;
+
 
 
 	--padding: 1em;

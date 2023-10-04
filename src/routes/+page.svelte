@@ -7,6 +7,8 @@
   import Services from '../components/Home/Services/Services.svelte';
   import Process from '../components/Home/Process/Process.svelte';
   import Reviews from '../components/Reviews/Reviews.svelte';
+  import FAQ from '../components/FAQ/FAQ.svelte';
+  import Footer from '../components/Footer/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -22,6 +24,8 @@
   <Services {t} />
   <Process {t} />
   <Reviews {t} />
+  <FAQ {t} />
+  <Footer {t} />
 </div>
 
 <style lang="scss">

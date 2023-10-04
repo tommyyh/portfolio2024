@@ -1,0 +1,114 @@
+<script>
+  export let t;
+  import instagramSvg from '$lib/images/footer/instagram.svg';
+  import linkedInSvg from '$lib/images/footer/linked-in.svg';
+  import tiktokSvg from '$lib/images/footer/tiktok.svg';
+  import twitterSvg from '$lib/images/footer/twitter.svg';
+
+  const lang = 'home.footer';
+</script>
+
+<footer>
+  <div class="cta">
+    <h4>{$t(`${lang}.sub`)}</h4>
+    <h2>{$t(`${lang}.title`)}</h2>
+    <p>{$t(`${lang}.text`)}</p>
+
+    <a href="">{$t(`${lang}.cta`)}</a>
+  </div>
+
+  <div class="bottom">
+    <h3>{$t(`${lang}.name`)}</h3>
+    <h4>{$t(`${lang}.mail`)}</h4>
+
+    <div class="socials">
+      <a href=""><img src={instagramSvg} alt="Instagram" /></a>
+      <a href=""><img src={linkedInSvg} alt="LinkedIn" /></a>
+      <a href=""><img src={tiktokSvg} alt="Tik Tok" /></a>
+      <a href=""><img src={twitterSvg} alt="Twitter" /></a>
+    </div>
+  </div>
+</footer>
+
+<style lang="scss">
+  footer {
+    padding: 12em var(--padding) 0em var(--padding);
+  }
+
+  .cta {
+    width: 100%;
+    padding: 4.19em 2em 4.9em 2em;
+
+    background: var(--accent);
+    border-radius: 1.22em;
+    box-shadow: 0px 4px 174px 0px rgba(0, 0, 0, 0.45);
+
+    h4 {
+      color: var(--sub2);
+      font-size: 0.72em;
+    }
+
+    h2 {
+      margin: 0.18em 0 0 0;
+
+      font-size: 2em;
+      color: var(--primary);
+      line-height: 1.2em;
+    }
+
+    p {
+      margin: 1.2em -0.8em 2.75em 0;
+
+      font-size: 0.9em;
+      font-weight: 400;
+      color: var(--footer-text);
+      line-height: 1.55em;
+    }
+
+    a {
+      padding: 0.7em 1.65em;
+
+      font-size: 0.95em;
+      font-weight: 700;
+      background: var(--primary);
+      color: var(--accent);
+      text-decoration: none;
+      border-radius: 4em;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5.63em 0 5.99em 0;
+
+    h3 {
+      font-size: 1.25em;
+      font-weight: 500;
+      color: var(--title);
+    }
+
+    h4 {
+      margin: 2.7em 0 0 0;
+
+      font-size: 1.099em;
+      font-weight: 400;
+      color: var(--process1-text);
+    }
+  }
+
+  .socials {
+    display: flex;
+
+    margin: 1.1em 0 0 0;
+
+    img {
+      margin: 0 0.31em;
+      width: 1.25em;
+      height: 1.25em;
+    }
+  }
+</style>
