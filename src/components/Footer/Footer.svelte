@@ -14,15 +14,21 @@
     <h2>{$t(`${lang}.title`)}</h2>
     <p>{$t(`${lang}.text`)}</p>
 
-    <a href="">{$t(`${lang}.cta`)}</a>
+    <a href="/contact">{$t(`${lang}.cta`)}</a>
   </div>
 
   <div class="bottom">
-    <h3>{$t(`${lang}.name`)}</h3>
-    <h4>{$t(`${lang}.mail`)}</h4>
+    <a href="/" class="home">
+      <h3>{$t(`${lang}.name`)}</h3>
+    </a>
+    <a href="mailto:tommyyhoangg@gmail.com" class="mail">
+      <h4>{$t(`${lang}.mail`)}</h4>
+    </a>
 
     <div class="socials">
-      <a href=""><img src={instagramSvg} alt="Instagram" /></a>
+      <a href="https://www.instagram.com/tommyy.hoang/"
+        ><img src={instagramSvg} alt="Instagram" /></a
+      >
       <a href=""><img src={linkedInSvg} alt="LinkedIn" /></a>
       <a href=""><img src={tiktokSvg} alt="Tik Tok" /></a>
       <a href=""><img src={twitterSvg} alt="Twitter" /></a>
@@ -110,5 +116,10 @@
       width: 1.25em;
       height: 1.25em;
     }
+  }
+
+  .mail,
+  .home {
+    text-decoration: none;
   }
 </style>

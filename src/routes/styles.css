@@ -45,6 +45,18 @@ body {
 	--process1-title: #323232;
 	--process1-text: #3F3F3F;
 
+	--process2-bg: #474747;
+	--process2-title: #FFFFFF;
+	--process2-text: #D2D2D2;
+
+	--process3-bg: #252525;
+	--process3-title: #F8F8F8;
+	--process3-text: #989898;
+
+	--process4-bg: #151515;
+	--process4-title: #F8F8F8;
+	--process4-text: #989898;
+
 	--faq-title: #393942;
 	--faq-sub: #676767;
 	--faq-2: #383838;

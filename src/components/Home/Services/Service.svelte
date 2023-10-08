@@ -33,9 +33,9 @@
       </div>
     </div>
 
-    <div class="help">
+    <a href="/contact" class="help">
       <h6>?</h6>
-    </div>
+    </a>
   </div>
 
   <div class="main">
@@ -102,6 +102,7 @@
 
     border-radius: 50%;
     background: var(--accent);
+    text-decoration: none;
 
     h6 {
       margin: -1.05px 0 0 0;

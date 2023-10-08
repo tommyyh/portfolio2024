@@ -22,7 +22,7 @@
 <style lang="scss">
   section {
     margin: 7.625em 0 0 0;
-    padding: 3.7em var(--padding);
+    padding: 3.7em var(--padding) 5.7em var(--padding);
 
     background: var(--accent);
   }

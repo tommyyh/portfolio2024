@@ -12,7 +12,7 @@
     <p>{$t(`${lang}.text`)}</p>
   </div>
 
-  <a href="" class="cta">
+  <a href="/contact" class="cta">
     <img src={chevronRightSvg} alt="chevron right" />
   </a>
 </div>

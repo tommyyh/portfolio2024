@@ -131,17 +131,17 @@
     }
   },
   "forWhom": {
-    "sub": "Who Is This Best Suited For?",
-    "title": "Wondering If We Are The Right Choice For You?",
-    "text": "If you're seeking web solutions that align with your goals and you’re unsure if we are the right choice for you, look no further. We offer tailored services to fuel your online success.",
+    "sub": "Komu se naše služby hodí nejvíce?",
+    "title": "Zajímá vás, zda jsme pro vás ta správná volba?",
+    "text": "Pokud hledáte webová řešení, která odpovídají vašim cílům, a nejste si jisti, zda jsme pro vás ta správná volba, nehledejte dál. Nabízíme služby šité na míru, které podpoří váš online úspěch.",
     "list": {
       "1": {
-        "title": "Don’t Have A Website?",
-        "text": "Not having a website in today's world is a big disadvantage. Together we will make your business shine even in the digital world."
+        "title": "Nemáte webovou stránku?",
+        "text": "Nemít webovou stránku je v dnešním světě strašná nevýhoda. Společně se postaráme o to, aby vaše firma zazářila i v digitálním světě."
       },
       "2": {
-        "title": "Need A Web Redesign?",
-        "text": "Have an outdated and an unattractive website, that repels your visitors? Look no further, as here, we will make it great again."
+        "title": "Potřebujete redesign webu?",
+        "text": "Máte zastaralou a neatraktivní webovou stránku, které odpuzují návštěvníky? Nemusíte hledat dál, jelikož váš web perfektně předěláme."
       }
     }
   },
@@ -232,9 +232,9 @@
   },
   "footer": {
     "sub": "Vývoj a design webu",
-    "title": "Breathtaking Websites That Will Increase Your Sales",
-    "text": "Our breathtaking websites keep visitors attention and maximize conversions. With stunning design and call-to-actions, we'll elevate your sales and boost ROI.",
-    "cta": "Get More Sales",
+    "title": "Úchvatné webové stránky, které zvýší vaš zisk",
+    "text": "Naše úchvatné webové stránky udržují pozornost návštěvníků a maximalizují konverze. Díky úžasnému designu a obsahu zvýšíme vaše prodeje a zisk.",
+    "cta": "Získat více tržeb",
     "name": "TommyHoang",
     "mail": "tommyyhoangg@gmail.com"
   }

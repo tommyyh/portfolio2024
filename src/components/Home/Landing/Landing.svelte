@@ -91,7 +91,8 @@
 
     button {
       margin: 0 0 0 0.5em;
-      padding: 0.74em 1.025em;
+      min-width: 2.44em;
+      min-height: 2.44em;
 
       font-size: 1em;
       font-weight: 500;
