@@ -65,8 +65,8 @@
     align-items: center;
     justify-content: center;
 
-    width: 2.7em;
-    height: 2.7em;
+    min-width: 2.7em;
+    min-height: 2.7em;
     right: var(--padding);
     z-index: 550;
     position: fixed;

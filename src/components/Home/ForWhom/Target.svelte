@@ -36,7 +36,7 @@
       content: 'A';
       position: absolute;
       left: -0.15em;
-      margin: -1.33em 0 0 0;
+      margin: -0.8em 0 0 0;
       z-index: -1;
 
       color: var(--forWhom-faded);
