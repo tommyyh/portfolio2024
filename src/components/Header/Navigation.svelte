@@ -10,24 +10,28 @@
     await loadTranslations(locale, '/'); // keep this just before the `return`
     menuActive = false;
   };
+
+  const onClick = async (e) => {
+    menuActive = false;
+  };
 </script>
 
 <nav class={menuActive ? 'nav-active' : undefined}>
   <div class={menuActive ? 'nav-content-active' : 'nav-content'}>
     <ul>
       <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-        <a href="/">{$t('home.header.home')}</a>
+        <a href="/" on:click={onClick}>{$t('home.header.home')}</a>
       </li>
       <li aria-current={$page.url.pathname === '/work' ? 'page' : undefined}>
-        <a href="/about">{$t('home.header.work')}</a>
+        <a href="/" on:click={onClick}>{$t('home.header.work')}</a>
       </li>
       <li
         aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
       >
-        <a href="/about">{$t('home.header.services')}</a>
+        <a href="/" on:click={onClick}>{$t('home.header.services')}</a>
       </li>
       <li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
-        <a href="/about">{$t('home.header.contact')}</a>
+        <a href="/contact" on:click={onClick}>{$t('home.header.contact')}</a>
       </li>
     </ul>
 

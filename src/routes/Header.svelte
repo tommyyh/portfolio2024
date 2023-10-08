@@ -12,11 +12,11 @@
 </script>
 
 <header>
-  <div class="corner">
+  <a href="/" class="corner">
     <img src={logo} alt="logo" />
 
     <h3>Tommy Hoang</h3>
-  </div>
+  </a>
 
   <button class="menu" on:click={menuClick}>
     <div class="menu-line" />
@@ -38,6 +38,8 @@
   .corner {
     display: flex;
     align-items: center;
+
+    text-decoration: none;
 
     // Logo
     img {
