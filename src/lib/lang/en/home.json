@@ -130,6 +130,21 @@
       }
     }
   },
+  "forWhom": {
+    "sub": "Who Is This Best Suited For?",
+    "title": "Wondering If We Are The Right Choice For You?",
+    "text": "If you're seeking web solutions that align with your goals and you’re unsure if we are the right choice for you, look no further. We offer tailored services to fuel your online success.",
+    "list": {
+      "1": {
+        "title": "Don’t Have A Website?",
+        "text": "Not having a website in today's world is a big disadvantage. Together we will make your business shine even in the digital world."
+      },
+      "2": {
+        "title": "Need A Web Redesign?",
+        "text": "Have an outdated and an unattractive website, that repels your visitors? Look no further, as here, we will make it great again."
+      }
+    }
+  },
   "process": {
     "sub": "Our Process",
     "title": "What Will The Entire Web Process Look Like?",
@@ -186,32 +201,32 @@
       "1": {
         "sub": "Website cost",
         "title": "How much will my website cost?",
-        "text": "The cost of your website will depend on factors like design complexity, features, and functionality. A basic site can range from a few hundred to a few thousand dollars, while complex e-commerce sites can cost several thousand or more."
+        "text": "The cost of your website will depend on factors like design complexity, number of features, functionality & more. A basic site can range from a few hundred to a few thousand dollars, while complex e-commerce sites can cost several thousand or more."
       },
       "2": {
         "sub": "Development duration",
         "title": "How long until my website is finished?",
-        "text": "The time to complete your website hinges on its complexity. Simple websites may take a few weeks, whereas intricate projects with custom features and extensive testing could extend to several months."
+        "text": "The time to complete your website depends on its size & complexity. Simple websites may take a few weeks, whereas intricate projects with a lot of custom features & a lot testing could extend to several months."
       },
       "3": {
         "sub": "Website benefits & more",
         "title": "How does a website benefit my business?",
-        "text": "A well-crafted website can greatly benefit your business by expanding your online presence, attracting new customers, increasing credibility, and providing a platform to showcase your products or services."
+        "text": "A well designed and built website can greatly benefit your business by expanding your online presence, attracting new customers you could never get normally, increasing credibility, and providing a platform to showcase your products or services."
       },
       "4": {
         "sub": "Website responsiveness",
         "title": "Will my site be mobile-friendly & responsive?",
-        "text": "Yes, your website can be made mobile-friendly and responsive, ensuring it adapts seamlessly to various devices, enhancing user experience, and improving search engine rankings."
+        "text": "Yes, your website will always be made mobile-friendly and responsive, to make sure it adapts seamlessly to various devices, enhancing user experience, and improving search engine rankings."
       },
       "5": {
         "sub": "Website flexibility",
         "title": "Will my website be fully customizable?",
-        "text": "Most websites are customizable to a significant extent, allowing you to tailor design, content, and functionality to your specific needs. The extent of customization depends on your chosen platform and developer's expertise."
+        "text": "Yes, your website will be customizable even after deployment. We offer prolonged support and will be here to customize your website based on your needs."
       },
       "6": {
         "sub": "Website maintenance",
         "title": "Will you maintain my site for me?",
-        "text": "Many web developers offer ongoing maintenance services to keep your site updated, secure, and performing optimally. Discuss maintenance options and costs with your chosen developer to ensure your website remains in top shape."
+        "text": "We offer website maintenance after the website is finished. Maintaining a website is a must-need, that's why we do not charge for it in most cases, since it should be a standard."
       }
     }
   },

@@ -130,6 +130,21 @@
       }
     }
   },
+  "forWhom": {
+    "sub": "Who Is This Best Suited For?",
+    "title": "Wondering If We Are The Right Choice For You?",
+    "text": "If you're seeking web solutions that align with your goals and you’re unsure if we are the right choice for you, look no further. We offer tailored services to fuel your online success.",
+    "list": {
+      "1": {
+        "title": "Don’t Have A Website?",
+        "text": "Not having a website in today's world is a big disadvantage. Together we will make your business shine even in the digital world."
+      },
+      "2": {
+        "title": "Need A Web Redesign?",
+        "text": "Have an outdated and an unattractive website, that repels your visitors? Look no further, as here, we will make it great again."
+      }
+    }
+  },
   "process": {
     "sub": "Náš proces",
     "title": "Jak bude vypadat celý proces?",
@@ -177,5 +192,50 @@
         "rating": "4.6"
       }
     }
+  },
+  "faq": {
+    "sub": "Často kladené otázky",
+    "title": "Často kladené otázky našich předchozích zákazníků",
+    "text": "Chápeme, že investovat do webových stránek může být obavující, zejména pokud jste nikdy neměli webovou stránky a začínáte se zaměřovat na digitální stránku podnikání, proto jsme zde, abychom vám odpověděli na otázky, které můžete mít.",
+    "list": {
+      "1": {
+        "sub": "Cena webové stránky",
+        "title": "Kolik bude moje webová stránka stát?",
+        "text": "Cena vaše webové stránky budou záviset na faktorech, jako je složitost designu, počet funkcí a hlavně velikost webové stránky. Základní web se může pohybovat v rozmezí od několika tisíců do desítek tisíců, zatímco složité weby, např e-shopy mohou stát o dost více."
+      },
+      "2": {
+        "sub": "Doba vývoje stránky",
+        "title": "Za jak dlouho bude moje webová stránka hotová?",
+        "text": "Doba vytváření webové stránky závisí na její velikosti a složitosti. Jednoduché webové stránky mohou trvat několik týdnů, zatímco složité projekty s mnoha vlastními funkcemi a velkým množstvím testů se mohou protáhnout na několik měsíců."
+      },
+      "3": {
+        "sub": "Výhody webových stránek",
+        "title": "Jaké výhody má webová stránka pro mojí firmu?",
+        "text": "Dobře navržená a vytvořená webová stránka může být pro vaši firmu velkým přínosem, protože rozšíří vaši přítomnost na internetu a to přiláká nové zákazníky, které byste normálně nikdy nezískali, zvýší důvěryhodnost a poskytnou platformu pro prezentaci vašich produktů nebo služeb."
+      },
+      "4": {
+        "sub": "Responzivní webová stránka",
+        "title": "Bude můj web přizpůsobený mobilním a ostatním zařízením?",
+        "text": "Ano, vaše webová stránka bude vždy přizpůsobena mobilním zařízením a ostatním zařízením. Zajistíme aby webová stránka vypadala a fungovala skvěle na každým zařízení. Zlepší to zažiky pro uživatele a také technické věci např. SEO a více."
+      },
+      "5": {
+        "sub": "Úpravy webové stránky",
+        "title": "Bude moje webová stránka upravitelná i po dokončení?",
+        "text": "Ano vaše webová stránka bude plně upravitelná i po zhotovení. Nabízíme prodlouženou podporu a budeme zde pro vaše požadavky podle vašich osobních potřeb."
+      },
+      "6": {
+        "sub": "Údržba webové stránky",
+        "title": "Budete pro mě udržovat mojí webovou stránku?",
+        "text": "Po dokončení webové stránky nabízíme jejich údržbu. Údržba webové stránky je nezbytná věc, proto ji ve většině případů neúčtujeme, protože by měla být standartem."
+      }
+    }
+  },
+  "footer": {
+    "sub": "Vývoj a design webu",
+    "title": "Breathtaking Websites That Will Increase Your Sales",
+    "text": "Our breathtaking websites keep visitors attention and maximize conversions. With stunning design and call-to-actions, we'll elevate your sales and boost ROI.",
+    "cta": "Get More Sales",
+    "name": "TommyHoang",
+    "mail": "tommyyhoangg@gmail.com"
   }
 }

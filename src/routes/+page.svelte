@@ -6,6 +6,7 @@
   import Work from '../components/Home/Work/Work.svelte';
   import Services from '../components/Home/Services/Services.svelte';
   import Process from '../components/Home/Process/Process.svelte';
+  import ForWhom from '../components/Home/ForWhom/ForWhom.svelte';
   import Reviews from '../components/Reviews/Reviews.svelte';
   import FAQ from '../components/FAQ/FAQ.svelte';
   import Footer from '../components/Footer/Footer.svelte';
@@ -22,6 +23,7 @@
   <Whyus {t} />
   <Work {t} />
   <Services {t} />
+  <ForWhom {t} />
   <Process {t} />
   <Reviews {t} />
   <FAQ {t} />
