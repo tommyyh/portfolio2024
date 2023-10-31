@@ -1,8 +1,17 @@
 <script>
   import Step from './Review.svelte';
+  import { page } from '$app/stores';
   export let t;
 
-  const lang = 'home.reviews';
+  let lang;
+
+  if ($page.url.pathname === '/') {
+    lang = 'home.reviews';
+  } else if ($page.url.pathname === '/contact') {
+    lang = 'contact.reviews';
+  } else {
+    lang = 'home.reviews';
+  }
 </script>
 
 <section>

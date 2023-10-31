@@ -1,9 +1,18 @@
 <script>
   import ProfilePicPng from '$lib/images/profile_pic.png';
+  import { page } from '$app/stores';
   export let t;
   export let index;
 
-  const lang = `home.reviews.list.${index}`;
+  let lang;
+
+  if ($page.url.pathname === '/') {
+    lang = `home.reviews.list.${index}`;
+  } else if ($page.url.pathname === '/contact') {
+    lang = `contact.reviews.list.${index}`;
+  } else {
+    lang = `home.reviews.list.${index}`;
+  }
 </script>
 
 <div class="step">

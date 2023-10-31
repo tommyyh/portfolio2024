@@ -1,0 +1,241 @@
+{
+  "header": {
+    "home": "Domů",
+    "work": "Naše Práce",
+    "services": "Služby",
+    "contact": "Kontakt",
+    "english": "English",
+    "czech": "Čeština"
+  },
+  "head": {
+    "title": "Webová Agentura - Tommy Hoang"
+  },
+  "landing": {
+    "sub": "Vývoj & Design webů",
+    "title": "Úžasné Webové Stránky, Které Zvýší Vaše Tržby",
+    "text": "Naše úchvatné webové stránky získá pozornost návštěvníků a zvýší vaše tržby. Díky úžasné struktuře a designu se váš zisk exponentálně zvýší.",
+    "cta": "Získat více tržeb"
+  },
+  "whyUs": {
+    "sub": "Proč Vybrat Nás?",
+    "title": "Překonejte Svojí Konkurenci A Získejte Více Klientů.",
+    "text": "Vyniknout nad vaší konkurencí je jedna z nejdůležitějších věcí, kterou potřebujete k tomu, abyste měli úspěšný a prosperující podnik. Náš přístup zaměřený na prodej pomůže vaší firmě vyniknout nad ostatními a v důsledku získat více potenciálních zákazníků.",
+    "reason1": {
+      "title": "Kreativní & Obchdoně-Řízený Design",
+      "text": "Náš úchvatný a obchodně orientovaný design se zaměřuje na upoutání pozornosti návštěvníků, což vede k většímu počtu potenciálních zákazníků a tržeb.",
+      "cta": "Naše Práce"
+    },
+    "reason2": {
+      "title": "Přesvědčivý Design & Text",
+      "text": "Zaměřujeme se hlavně na přesvědčivý design a typografii. Ty jsou zásadní pro získání důvěry zákazníků a dosažení většího počtu prodeje.",
+      "cta": "Kontaktjte Nás"
+    },
+    "reason3": {
+      "title": "Důvěra & Věrohodnost",
+      "text": "Naši předchozí zákazníci jsou velmi spokojení a jsme si jisti, že vy budete také. Jsme velmi flexibilní a rádi vyhovíme vašim potřebám a požadavkům.",
+      "cta": "Naše Recenze"
+    }
+  },
+  "work": {
+    "sub": "Naše předchozí práce a projekty",
+    "title": "Naše předchozí práce pro klienty po celém světě",
+    "text": "Vytvořili jsme řadu webových stránek pro spokojené klienty po celém světě. Prohlédněte si naše portfolio, které ukazuje úžasné webové stránky každého druhu, včetně e-shopů, brožur a dalších.",
+    "cta": "Zobrazit naši práci"
+  },
+  "services": {
+    "sub": "Naše služby",
+    "title": "Nabízíme služby na míru vašim potřebám a cílům",
+    "text": "Zlepšete svou digitální prezenci díky našim odborným službám v oblasti vývoje a designu webových stránek a vytvořte poutavé a vysoce výkonné webové stránky, které vám přinesou nové zákazníky.",
+    "list": {
+      "1": {
+        "title": "Webová stránky",
+        "sub": "Obecné služby",
+        "imageName": "home",
+        "list": {
+          "1": {
+            "title": "Vývoj webu",
+            "sub": "Vlastní kódování",
+            "img": "code"
+          },
+          "2": {
+            "title": "Webový design",
+            "sub": "Figma",
+            "img": "palette"
+          },
+          "3": {
+            "title": "Redesign webu",
+            "sub": "Figma",
+            "img": "pencil"
+          },
+          "4": {
+            "title": "Ostatní",
+            "sub": "Další služby pro vaše potřeby",
+            "img": "comment"
+          }
+        }
+      },
+      "2": {
+        "title": "Technické služby",
+        "sub": "Technická stránka",
+        "imageName": "settings",
+        "list": {
+          "1": {
+            "title": "Webový hosting",
+            "sub": "Linode, Hetzner, ...",
+            "img": "server"
+          },
+          "2": {
+            "title": "Správa domény",
+            "sub": "Namecheap, GoDaddy, ...",
+            "img": "location"
+          },
+          "3": {
+            "title": "Testování webu",
+            "sub": "Jest, Mocha, ...",
+            "img": "microscope"
+          },
+          "4": {
+            "title": "Optimalizace výkonu",
+            "sub": "Lepší rychlost a doba načítání",
+            "img": "gauge"
+          }
+        }
+      },
+      "3": {
+        "title": "Další služby",
+        "sub": "Další",
+        "imageName": "bulb",
+        "list": {
+          "1": {
+            "title": "E-shopy",
+            "sub": "Vlastní kód, Shopify, ...",
+            "img": "cart"
+          },
+          "2": {
+            "title": "Brožurové weby",
+            "sub": "Vlastní kód",
+            "img": "pen"
+          },
+          "3": {
+            "title": "Údržba webu",
+            "sub": "Prodloužená podpora",
+            "img": "headset"
+          },
+          "4": {
+            "title": "Optimalizace SEO",
+            "sub": "Google SEO, ...",
+            "img": "glass"
+          }
+        }
+      }
+    }
+  },
+  "forWhom": {
+    "sub": "Komu se naše služby hodí nejvíce?",
+    "title": "Zajímá vás, zda jsme pro vás ta správná volba?",
+    "text": "Pokud hledáte webová řešení, která odpovídají vašim cílům, a nejste si jisti, zda jsme pro vás ta správná volba, nehledejte dál. Nabízíme služby šité na míru, které podpoří váš online úspěch.",
+    "list": {
+      "1": {
+        "title": "Nemáte webovou stránku?",
+        "text": "Nemít webovou stránku je v dnešním světě strašná nevýhoda. Společně se postaráme o to, aby vaše firma zazářila i v digitálním světě."
+      },
+      "2": {
+        "title": "Potřebujete redesign webu?",
+        "text": "Máte zastaralou a neatraktivní webovou stránku, které odpuzují návštěvníky? Nemusíte hledat dál, jelikož váš web perfektně předěláme."
+      }
+    }
+  },
+  "process": {
+    "sub": "Náš proces",
+    "title": "Jak bude vypadat celý proces?",
+    "text": "Vědět celý proces je zásadní pro vytvoření ideálního a bezproblémového websitu v co nejkratším čase. To nám umožní být na stejné straně a efektivně komunikovat.",
+    "list": {
+      "1": {
+        "title": "1, Kontakt & Diskuze",
+        "text": "Prvním krokem je nás oslovit a společně probereme vaše potřeby. Navrhneme řešení na míru, se kterým budete spokojeni."
+      },
+      "2": {
+        "title": "2, Vytvoření dokonalé struktury",
+        "text": "Dalším krokem je vytvoření ideální struktury webu, která zajistí bezproblémovou navigaci a zapojení uživatelů s cílem maximalizovat tržby."
+      },
+      "3": {
+        "title": "3, Navrhování prototypu",
+        "text": "Vytvoříme návrh prototypu pro vizualizaci webové stránek. V této fázi je provádění změn a zdokonalování velmi snadné a rychlé, proto je důležité, aby bylo vše perfektní."
+      },
+      "4": {
+        "title": "4, Vývoj & Nasazení",
+        "text": "Po vytvoření ideálního prototypu, tak ho uvedeme do života. Zdokonalíme také technické aspekty, jako je rychlost, SEO, přístupnost a další. A samozřejmě ho nasadíme."
+      }
+    }
+  },
+  "reviews": {
+    "sub": "Naše recenze",
+    "title": "Podívejte se, co o nás říkají ostatní",
+    "text": "Naši klienti s námi rádi spolupracují! Přečtěte si jejich recenze a zjistěte, jak jsme díky našim webovým řešením pomohli firmám prospívat.",
+    "list": {
+      "1": {
+        "author": "Dr. Murtaza Sajid",
+        "sub": "Rimmingtons COVID Team",
+        "text": "Jen jsem chtěl Tommymu poděkovat za jeho neuvěřitelnou práci a vizi s našimi webovými stránkami. Velmi ochotně reagoval a průběžně mě informoval o celé cestě a odpovídal na mnoho otázek. Způsobil revoluci ve způsobu, jakým přijímáme rezervace, a měl obrovský vliv na úspěch toho, jak nyní fungujeme. Jeho služeb bychom využili a využijeme i v budoucnu. [CZ Translation]",
+        "rating": "4.8"
+      },
+      "2": {
+        "author": "Jan Lužecký",
+        "sub": "Ontee Team",
+        "text": "Doporučuji spolupráci s Tommym. Je spolehlivý a rychle se učí novým věcem. Je bezproblémový.",
+        "rating": "4.2"
+      },
+      "3": {
+        "author": "Justus-Konrad Flade",
+        "sub": "JubefaGmbH CEO",
+        "text": "Tommy je člověk, který nachází řešení tam, kde je jich nejvíce potřeba. Proto je s ním radost pracovat. [CZ Translation]",
+        "rating": "4.6"
+      }
+    }
+  },
+  "faq": {
+    "sub": "Často kladené otázky",
+    "title": "Často kladené otázky našich předchozích zákazníků",
+    "text": "Chápeme, že investovat do webových stránek může být obavující, zejména pokud jste nikdy neměli webovou stránky a začínáte se zaměřovat na digitální stránku podnikání, proto jsme zde, abychom vám odpověděli na otázky, které můžete mít.",
+    "list": {
+      "1": {
+        "sub": "Cena webové stránky",
+        "title": "Kolik bude moje webová stránka stát?",
+        "text": "Cena vaše webové stránky budou záviset na faktorech, jako je složitost designu, počet funkcí a hlavně velikost webové stránky. Základní web se může pohybovat v rozmezí od několika tisíců do desítek tisíců, zatímco složité weby, např e-shopy mohou stát o dost více."
+      },
+      "2": {
+        "sub": "Doba vývoje stránky",
+        "title": "Za jak dlouho bude moje webová stránka hotová?",
+        "text": "Doba vytváření webové stránky závisí na její velikosti a složitosti. Jednoduché webové stránky mohou trvat několik týdnů, zatímco složité projekty s mnoha vlastními funkcemi a velkým množstvím testů se mohou protáhnout na několik měsíců."
+      },
+      "3": {
+        "sub": "Výhody webových stránek",
+        "title": "Jaké výhody má webová stránka pro mojí firmu?",
+        "text": "Dobře navržená a vytvořená webová stránka může být pro vaši firmu velkým přínosem, protože rozšíří vaši přítomnost na internetu a to přiláká nové zákazníky, které byste normálně nikdy nezískali, zvýší důvěryhodnost a poskytnou platformu pro prezentaci vašich produktů nebo služeb."
+      },
+      "4": {
+        "sub": "Responzivní webová stránka",
+        "title": "Bude můj web přizpůsobený mobilním a ostatním zařízením?",
+        "text": "Ano, vaše webová stránka bude vždy přizpůsobena mobilním zařízením a ostatním zařízením. Zajistíme aby webová stránka vypadala a fungovala skvěle na každým zařízení. Zlepší to zažiky pro uživatele a také technické věci např. SEO a více."
+      },
+      "5": {
+        "sub": "Úpravy webové stránky",
+        "title": "Bude moje webová stránka upravitelná i po dokončení?",
+        "text": "Ano vaše webová stránka bude plně upravitelná i po zhotovení. Nabízíme prodlouženou podporu a budeme zde pro vaše požadavky podle vašich osobních potřeb."
+      },
+      "6": {
+        "sub": "Údržba webové stránky",
+        "title": "Budete pro mě udržovat mojí webovou stránku?",
+        "text": "Po dokončení webové stránky nabízíme jejich údržbu. Údržba webové stránky je nezbytná věc, proto ji ve většině případů neúčtujeme, protože by měla být standartem."
+      }
+    }
+  },
+  "footer": {
+    "sub": "Vývoj a design webu",
+    "title": "Úchvatné webové stránky, které zvýší vaš zisk",
+    "text": "Naše úchvatné webové stránky udržují pozornost návštěvníků a maximalizují konverze. Díky úžasnému designu a obsahu zvýšíme vaše prodeje a zisk.",
+    "cta": "Získat více tržeb",
+    "name": "TommyHoang",
+    "mail": "tommyyhoangg@gmail.com"
+  }
+}

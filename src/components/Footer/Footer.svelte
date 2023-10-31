@@ -4,18 +4,31 @@
   import linkedInSvg from '$lib/images/footer/linked-in.svg';
   import tiktokSvg from '$lib/images/footer/tiktok.svg';
   import twitterSvg from '$lib/images/footer/twitter.svg';
+  import { page } from '$app/stores';
 
-  const lang = 'home.footer';
+  let lang;
+
+  if ($page.url.pathname === '/') {
+    lang = 'home.footer';
+  } else if ($page.url.pathname === '/contact') {
+    lang = 'contact.footer';
+  } else {
+    lang = 'home.footer';
+  }
 </script>
 
 <footer>
-  <div class="cta">
-    <h4>{$t(`${lang}.sub`)}</h4>
-    <h2>{$t(`${lang}.title`)}</h2>
-    <p>{$t(`${lang}.text`)}</p>
+  {#if $page.url.pathname === '/contact'}
+    <div style="margin-top: -7em;" />
+  {:else}
+    <div class="cta">
+      <h4>{$t(`${lang}.sub`)}</h4>
+      <h2>{$t(`${lang}.title`)}</h2>
+      <p>{$t(`${lang}.text`)}</p>
 
-    <a href="/contact">{$t(`${lang}.cta`)}</a>
-  </div>
+      <a href="/contact">{$t(`${lang}.cta`)}</a>
+    </div>
+  {/if}
 
   <div class="bottom">
     <a href="/" class="home">

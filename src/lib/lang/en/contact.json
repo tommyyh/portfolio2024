@@ -1,0 +1,63 @@
+{
+  "header": {
+    "home": "Home",
+    "work": "Our Work",
+    "services": "Services",
+    "contact": "Contact Us",
+    "english": "English",
+    "czech": "Čeština"
+  },
+  "head": {
+    "title": "Web Agency - Tommy Hoang"
+  },
+  "landing": {
+    "sub": "Get In Touch With Us",
+    "title": "Contact Us Today And Ensure Your Company’s Success"
+  },
+  "form": {
+    "name": "Enter Your Name...",
+    "mail": "Enter Your Email Address...",
+    "service": "Select Service",
+    "url": "Website URL (Optional)",
+    "msg": "Tell Me About Your Project",
+    "cta": "Send Message"
+  },
+  "info": {
+    "tel": "Tel: +420 797602438",
+    "mail": "Email: tommyyhoangg@gmail.com",
+    "location": "Location: Czech Republic"
+  },
+  "reviews": {
+    "sub": "Our Reviews",
+    "title": "Have A Look At What Others Have To Say About Us",
+    "text": "Our clients love working with us! Read their testimonials and discover how we've helped businesses thrive with our web solutions.",
+    "list": {
+      "1": {
+        "author": "Dr. Murtaza Sajid",
+        "sub": "Rimmingtons COVID Team",
+        "text": "Just wanted to say a huge thanks to Tommy for his incredible work and vision with our website. He was very responsive and kept me up to date with the whole journey answering many questions along the way. He revolutionized the way we take bookings and had a huge influence on the success of how we now operate. Would and will use his services again in the future.",
+        "rating": "4.8"
+      },
+      "2": {
+        "author": "Jan Lužecký",
+        "sub": "Ontee Team",
+        "text": "I recommend working with Tommy. He is reliable and quick to learn new things. He's easy to work with. [EN Translation]",
+        "rating": "4.2"
+      },
+      "3": {
+        "author": "Justus-Konrad Flade",
+        "sub": "JubefaGmbH CEO",
+        "text": "Tommy is a guy that finds solutions, where they are needed the most. That's why working with him is a pleasure.",
+        "rating": "4.6"
+      }
+    }
+  },
+  "footer": {
+    "sub": "Web Development & Design",
+    "title": "Breathtaking Websites That Will Increase Your Sales",
+    "text": "Our breathtaking websites keep visitors attention and maximize conversions. With stunning design and call-to-actions, we'll elevate your sales and boost ROI.",
+    "cta": "Get More Sales",
+    "name": "TommyHoang",
+    "mail": "tommyyhoangg@gmail.com"
+  }
+}
