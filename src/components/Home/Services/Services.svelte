@@ -3,7 +3,7 @@
   export let t;
 </script>
 
-<section>
+<section id="services">
   <h4>{$t('home.services.sub')}</h4>
   <h2>{$t('home.services.title')}</h2>
   <p>{$t('home.services.text')}</p>

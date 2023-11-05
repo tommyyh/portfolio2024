@@ -10,6 +10,8 @@
     lang = `home.reviews.list.${index}`;
   } else if ($page.url.pathname === '/contact') {
     lang = `contact.reviews.list.${index}`;
+  } else if ($page.url.pathname === '/work') {
+    lang = `work.reviews.list.${index}`;
   } else {
     lang = `home.reviews.list.${index}`;
   }

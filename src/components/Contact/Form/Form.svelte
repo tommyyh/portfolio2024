@@ -28,8 +28,8 @@
 
     <div class="field">
       <select name="service" id="service">
-        <option value="new">New website</option>
-        <option value="redesign">Website Redesign</option>
+        <option value="new">{$t(`${lang}.service1`)}</option>
+        <option value="redesign">{$t(`${lang}.service2`)}</option>
       </select>
     </div>
 

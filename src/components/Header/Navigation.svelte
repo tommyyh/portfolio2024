@@ -4,6 +4,16 @@
   export let menuActive;
   export let t;
 
+  let lang;
+
+  if ($page.url.pathname === '/') {
+    lang = 'home.header';
+  } else if ($page.url.pathname === '/contact') {
+    lang = 'contact.header';
+  } else {
+    lang = 'home.header';
+  }
+
   const onChange = async (e) => {
     const locale = e.target.value;
 
@@ -20,25 +30,25 @@
   <div class={menuActive ? 'nav-content-active' : 'nav-content'}>
     <ul>
       <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-        <a href="/" on:click={onClick}>{$t('home.header.home')}</a>
+        <a href="/" on:click={onClick}>{$t(`${lang}.home`)}</a>
       </li>
       <li aria-current={$page.url.pathname === '/work' ? 'page' : undefined}>
-        <a href="/" on:click={onClick}>{$t('home.header.work')}</a>
+        <a href="/work" on:click={onClick}>{$t(`${lang}.work`)}</a>
       </li>
       <li
         aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
       >
-        <a href="/" on:click={onClick}>{$t('home.header.services')}</a>
+        <a href="#services" on:click={onClick}>{$t(`${lang}.services`)}</a>
       </li>
       <li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
-        <a href="/contact" on:click={onClick}>{$t('home.header.contact')}</a>
+        <a href="/contact" on:click={onClick}>{$t(`${lang}.contact`)}</a>
       </li>
     </ul>
 
     <div class="custom-select">
       <select name="lang" on:change={onChange}>
-        <option value="en">{$t('home.header.english')}</option>
-        <option value="cs">{$t('home.header.czech')}</option>
+        <option value="en">{$t(`${lang}.english`)}</option>
+        <option value="cs">{$t(`${lang}.czech`)}</option>
       </select>
     </div>
   </div>

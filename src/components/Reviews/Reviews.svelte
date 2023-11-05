@@ -9,6 +9,8 @@
     lang = 'home.reviews';
   } else if ($page.url.pathname === '/contact') {
     lang = 'contact.reviews';
+  } else if ($page.url.pathname === '/work') {
+    lang = 'work.reviews';
   } else {
     lang = 'home.reviews';
   }

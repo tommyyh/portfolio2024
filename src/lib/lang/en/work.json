@@ -1,0 +1,156 @@
+{
+  "header": {
+    "home": "Home",
+    "work": "Our Work",
+    "services": "Services",
+    "contact": "Contact Us",
+    "english": "English",
+    "czech": "Čeština"
+  },
+  "head": {
+    "title": "Web Agency - Tommy Hoang"
+  },
+  "work": {
+    "amount": "7",
+    "list": {
+      "1": {
+        "sub": "1, Real estate company",
+        "title": "JubefaImmobilien Is Buying Unwanted Properties",
+        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "cta": {
+          "title": "View Website",
+          "linkTo": "https://jubefa-main.vercel.app/en",
+          "blank": "true"
+        },
+        "webLink": "https://jubefa-main.vercel.app/en",
+        "image1": "jubefa-main1",
+        "image2": "jubefa-main2",
+        "image3": "jubefa-main3",
+        "image4": "jubefa-main4"
+      },
+      "2": {
+        "sub": "1, Real estate company",
+        "title": "JubefaImmobilien Is Buying Unwanted Properties",
+        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "cta": {
+          "title": "View Website",
+          "linkTo": "https://jubefa-main.vercel.app/en",
+          "blank": "true"
+        },
+        "webLink": "https://jubefa-main.vercel.app/en",
+        "image1": "jubefa-main1",
+        "image2": "jubefa-main2",
+        "image3": "jubefa-main3",
+        "image4": "jubefa-main4"
+      },
+      "3": {
+        "sub": "1, Real estate company",
+        "title": "JubefaImmobilien Is Buying Unwanted Properties",
+        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "cta": {
+          "title": "View Website",
+          "linkTo": "https://jubefa-main.vercel.app/en",
+          "blank": "true"
+        },
+        "webLink": "https://jubefa-main.vercel.app/en",
+        "image1": "jubefa-main1",
+        "image2": "jubefa-main2",
+        "image3": "jubefa-main3",
+        "image4": "jubefa-main4"
+      },
+      "4": {
+        "sub": "1, Real estate company",
+        "title": "JubefaImmobilien Is Buying Unwanted Properties",
+        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "cta": {
+          "title": "View Website",
+          "linkTo": "https://jubefa-main.vercel.app/en",
+          "blank": "true"
+        },
+        "webLink": "https://jubefa-main.vercel.app/en",
+        "image1": "jubefa-main1",
+        "image2": "jubefa-main2",
+        "image3": "jubefa-main3",
+        "image4": "jubefa-main4"
+      },
+      "5": {
+        "sub": "1, Real estate company",
+        "title": "JubefaImmobilien Is Buying Unwanted Properties",
+        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "cta": {
+          "title": "View Website",
+          "linkTo": "https://jubefa-main.vercel.app/en",
+          "blank": "true"
+        },
+        "webLink": "https://jubefa-main.vercel.app/en",
+        "image1": "jubefa-main1",
+        "image2": "jubefa-main2",
+        "image3": "jubefa-main3",
+        "image4": "jubefa-main4"
+      },
+      "6": {
+        "sub": "1, Real estate company",
+        "title": "JubefaImmobilien Is Buying Unwanted Properties",
+        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "cta": {
+          "title": "View Website",
+          "linkTo": "https://jubefa-main.vercel.app/en",
+          "blank": "true"
+        },
+        "webLink": "https://jubefa-main.vercel.app/en",
+        "image1": "jubefa-main1",
+        "image2": "jubefa-main2",
+        "image3": "jubefa-main3",
+        "image4": "jubefa-main4"
+      },
+      "7": {
+        "sub": "1, Real estate company",
+        "title": "JubefaImmobilien Is Buying Unwanted Properties",
+        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "cta": {
+          "title": "View Website",
+          "linkTo": "https://jubefa-main.vercel.app/en",
+          "blank": "true"
+        },
+        "webLink": "https://jubefa-main.vercel.app/en",
+        "image1": "jubefa-main1",
+        "image2": "jubefa-main2",
+        "image3": "jubefa-main3",
+        "image4": "jubefa-main4"
+      }
+    }
+  },
+  "reviews": {
+    "sub": "Our Reviews",
+    "title": "Have A Look At What Others Have To Say About Us",
+    "text": "Our clients love working with us! Read their testimonials and discover how we've helped businesses thrive with our web solutions.",
+    "list": {
+      "1": {
+        "author": "Dr. Murtaza Sajid",
+        "sub": "Rimmingtons COVID Team",
+        "text": "Just wanted to say a huge thanks to Tommy for his incredible work and vision with our website. He was very responsive and kept me up to date with the whole journey answering many questions along the way. He revolutionized the way we take bookings and had a huge influence on the success of how we now operate. Would and will use his services again in the future.",
+        "rating": "4.8"
+      },
+      "2": {
+        "author": "Jan Lužecký",
+        "sub": "Ontee Team",
+        "text": "I recommend working with Tommy. He is reliable and quick to learn new things. He's easy to work with. [EN Translation]",
+        "rating": "4.2"
+      },
+      "3": {
+        "author": "Justus-Konrad Flade",
+        "sub": "JubefaGmbH CEO",
+        "text": "Tommy is a guy that finds solutions, where they are needed the most. That's why working with him is a pleasure.",
+        "rating": "4.6"
+      }
+    }
+  },
+  "footer": {
+    "sub": "Web Development & Design",
+    "title": "Breathtaking Websites That Will Increase Your Sales",
+    "text": "Our breathtaking websites keep visitors attention and maximize conversions. With stunning design and call-to-actions, we'll elevate your sales and boost ROI.",
+    "cta": "Get More Sales",
+    "name": "TommyHoang",
+    "mail": "tommyyhoangg@gmail.com"
+  }
+}

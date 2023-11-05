@@ -9,7 +9,7 @@
 body {
 	font-family: 'Satoshi', sans-serif;
 
-	/* margin-bottom: 900px; */
+	margin-bottom: 900px;
 }
 
 :root {
@@ -20,6 +20,7 @@ body {
 	--second: #08080B;
 	--accent: #0C0A0B;
 	--text: #232223;
+	--text2: #646464;
 	--title: #000211;
 
 	--primary2: #ededed;

@@ -12,6 +12,8 @@
     lang = 'home.footer';
   } else if ($page.url.pathname === '/contact') {
     lang = 'contact.footer';
+  } else if ($page.url.pathname === '/work') {
+    lang = 'work.footer';
   } else {
     lang = 'home.footer';
   }

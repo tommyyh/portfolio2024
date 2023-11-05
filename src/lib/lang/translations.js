@@ -25,6 +25,17 @@ const config = {
       key: 'contact',
       loader: async () => (await import('./cs/contact.json')).default,
     },
+    {
+      locale: 'en',
+      key: 'work',
+      routes: ['/work'],
+      loader: async () => (await import('./en/work.json')).default,
+    },
+    {
+      locale: 'cs',
+      key: 'work',
+      loader: async () => (await import('./cs/work.json')).default,
+    },
   ],
 };
 
