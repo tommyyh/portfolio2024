@@ -31,7 +31,7 @@
       <a href="/work">{$t(`${lang}.work`)}</a>
     </li>
     <li aria-current={$page.url.pathname === '/services' ? 'page' : undefined}>
-      <a href="#services">{$t(`${lang}.services`)}</a>
+      <a href="">{$t(`${lang}.services`)}</a>
     </li>
   </ul>
 </nav>
