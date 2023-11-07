@@ -40,7 +40,7 @@
       <li
         aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
       >
-        <a href="#services" on:click={onClick}>{$t(`${lang}.services`)}</a>
+        <a href="" on:click={onClick}>{$t(`${lang}.services`)}</a>
       </li>
       <li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
         <a href="/contact" on:click={onClick}>{$t(`${lang}.contact`)}</a>
