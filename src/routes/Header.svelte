@@ -1,6 +1,7 @@
 <script>
   import logo from '$lib/images/logo.svg';
   import Navigation from '../components/Header/Navigation.svelte';
+  import DesktopNavigation from '../components/Header/DesktopNavigation.svelte';
   export let t;
 
   $: menuActive = false;
@@ -11,19 +12,22 @@
   };
 </script>
 
-<header>
-  <a href="/" class="corner">
-    <img src={logo} alt="logo" />
+<div class="cont">
+  <header>
+    <a href="/" class="corner">
+      <img src={logo} alt="logo" />
 
-    <h3>Tommy Hoang</h3>
-  </a>
+      <h3>Tommy Hoang</h3>
+    </a>
 
-  <button class="menu" on:click={menuClick}>
-    <div class="menu-line" />
-  </button>
+    <button class="menu" on:click={menuClick}>
+      <div class="menu-line" />
+    </button>
 
-  <Navigation {t} {menuActive} />
-</header>
+    <Navigation {t} {menuActive} />
+    <DesktopNavigation {t} />
+  </header>
+</div>
 
 <style lang="scss">
   header {
@@ -98,6 +102,55 @@
 
     &::after {
       transform: translate(50%, 5px);
+    }
+  }
+
+  @media all and (min-width: 1025px) {
+    .cont {
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+      width: 100%;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: var(--width);
+
+      padding: 1.8em var(--padding2);
+    }
+
+    // Left corner
+    .corner {
+      display: flex;
+      align-items: center;
+
+      text-decoration: none;
+
+      // Logo
+      img {
+        width: 2.9em;
+      }
+
+      // Title
+      h3 {
+        margin: 0 0 0 0.42em;
+        padding: 0.77em 1.7em;
+
+        font-size: 0.85em;
+        font-weight: 600;
+        color: var(--nav-title);
+        background: var(--primary2);
+        border-radius: 5em;
+      }
+    }
+
+    // Menu icon
+    .menu {
+      display: none;
     }
   }
 </style>

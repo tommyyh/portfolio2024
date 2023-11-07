@@ -97,4 +97,55 @@
 
     opacity: 1;
   }
+
+  @media all and (min-width: 1025px) {
+    .reason {
+      padding: 2.4rem 2.5rem;
+      position: relative;
+
+      &:first-child {
+        padding: 2.4rem 2.1rem 2.4rem 3.1rem;
+      }
+
+      h3 {
+        color: var(--second);
+        font-size: 1.3em;
+        font-weight: 500;
+      }
+
+      p {
+        margin: 0.7em 0 0 0;
+        line-height: 138.5%;
+
+        font-size: 1.07em;
+        color: rgba(18, 18, 18, 0.7);
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        left: initial;
+        bottom: 0;
+        width: 2px;
+        height: 100%;
+
+        background: linear-gradient(
+          180deg,
+          rgba(239, 239, 239, 0.9) 60.58%,
+          rgba(236, 236, 236, 0.3) 88.7%,
+          rgba(239, 239, 239, 0.9) 93.85%
+        );
+      }
+
+      &:last-child::before {
+        all: initial;
+      }
+    }
+
+    // Cta
+    .cta {
+      display: none;
+    }
+  }
 </style>

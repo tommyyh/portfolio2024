@@ -10,6 +10,8 @@
     lang = 'home.header';
   } else if ($page.url.pathname === '/contact') {
     lang = 'contact.header';
+  } else if ($page.url.pathname === '/work') {
+    lang = 'work.header';
   } else {
     lang = 'home.header';
   }
@@ -139,5 +141,11 @@
     color: var(--second);
     font-weight: 600;
     font-size: 1.05rem;
+  }
+
+  @media all and (min-width: 1025px) {
+    nav {
+      display: none;
+    }
   }
 </style>

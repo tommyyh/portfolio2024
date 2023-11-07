@@ -193,4 +193,81 @@
 
     box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.37);
   }
+
+  @media all and (min-width: 1025px) {
+    section {
+      display: flex;
+      // overflow-x: scroll;
+      overflow-x: hidden;
+
+      // width: (38.31rem * 6) + (1.2rem * 6);
+      padding: 0 0 0.8rem 0;
+      margin: 1.5em 0 0 0;
+      box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.23);
+
+      /* width */
+      &::-webkit-scrollbar {
+        height: 9px;
+      }
+
+      /* Track */
+      &::-webkit-scrollbar-track {
+        background: #ececec;
+      }
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: #ffffff;
+        border-radius: 1rem;
+      }
+
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+        background: #f5f5f5;
+      }
+    }
+
+    // First showcase
+    .showcase1 {
+      display: flex;
+      overflow-x: initial;
+      box-shadow: none;
+
+      a {
+        margin: 0;
+      }
+    }
+
+    .showcase1 :global(.showcase1-image) {
+      height: 22.75rem;
+      object-fit: cover;
+      width: 38.31rem;
+      margin: 0 1.2rem 0 0;
+
+      box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.23);
+    }
+
+    // First showcase
+    .showcase2 {
+      display: flex;
+
+      overflow-x: initial;
+      margin: 0em 0 0 0;
+
+      box-shadow: none;
+
+      a {
+        margin: 0;
+      }
+    }
+
+    .showcase2 :global(.showcase2-image) {
+      height: 22.75rem;
+      object-fit: cover;
+      width: 38.31rem;
+      margin: 0 1.2rem 0 0;
+
+      box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.23);
+    }
+  }
 </style>

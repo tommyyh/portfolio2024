@@ -34,25 +34,37 @@
   });
 </script>
 
-<main>
-  <h4>{$t('home.landing.sub')}</h4>
-  <h1>{$t('home.landing.title')}</h1>
-
-  <div class="cta">
-    <a href="/contact">{$t('home.landing.cta')}</a>
-
-    <button on:click={openDescription}>?</button>
-
-    <div
-      bind:this={descriptionEl}
-      class={descriptionOpen ? 'description description-active' : 'description'}
-    >
-      <p>{$t('home.landing.text')}</p>
+<div class="cont">
+  <main>
+    <div>
+      <h4>{$t('home.landing.sub')}</h4>
+      <h1>{$t('home.landing.title')}</h1>
     </div>
-  </div>
 
-  <div class={descriptionOpen ? 'blur blur-active' : 'blur'} />
-</main>
+    <div class="cta-desktop">
+      <p>{$t('home.landing.text')}</p>
+
+      <a href="/contact">{$t('home.landing.cta')}</a>
+    </div>
+
+    <div class="cta">
+      <a href="/contact">{$t('home.landing.cta')}</a>
+
+      <button class="cta-open" on:click={openDescription}>?</button>
+
+      <div
+        bind:this={descriptionEl}
+        class={descriptionOpen
+          ? 'description description-active'
+          : 'description'}
+      >
+        <p>{$t('home.landing.text')}</p>
+      </div>
+    </div>
+
+    <div class={descriptionOpen ? 'blur blur-active' : 'blur'} />
+  </main>
+</div>
 
 <style lang="scss">
   main {
@@ -75,6 +87,10 @@
   }
 
   // Cta
+  .cta-desktop {
+    display: none;
+  }
+
   .cta {
     display: flex;
 
@@ -146,5 +162,65 @@
     width: 100%;
     height: 100vh;
     opacity: 1;
+  }
+
+  @media all and (min-width: 1025px) {
+    .cont {
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+      width: 100%;
+    }
+
+    main {
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: 39% 48%;
+
+      width: var(--width);
+      padding: 6.25em var(--padding2) 0 var(--padding2);
+
+      h4 {
+        font-size: 0.93em;
+        font-weight: 500;
+        color: var(--sub2);
+      }
+
+      h1 {
+        margin: 0.05em 0 0.55em -0.05em;
+
+        font-size: 2.9em;
+        font-weight: 700;
+        color: var(--accent);
+        line-height: 108.5%;
+      }
+
+      p {
+        color: var(--text);
+        font-size: 1.07rem;
+        line-height: 148%;
+        margin: 1.3rem 5rem 2.05rem 0;
+      }
+
+      a {
+        background: var(--second);
+        border-radius: 15rem;
+        color: #f9f8f4;
+        font-size: 0.93rem;
+        font-weight: 500;
+        padding: 0.8rem 1.9rem;
+        text-decoration: none;
+      }
+    }
+
+    // Cta
+    .cta {
+      display: none;
+    }
+
+    .cta-desktop {
+      display: initial;
+    }
   }
 </style>

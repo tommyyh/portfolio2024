@@ -80,4 +80,54 @@
       color: var(--services-sub2);
     }
   }
+
+  @media all and (min-width: 1025px) {
+    .service {
+      display: flex;
+      align-items: center;
+
+      width: 100%;
+      height: 4.25em;
+      margin: 0.8em 0 0 0;
+      padding: 0 0.9em;
+
+      background: var(--services-bg);
+      border-radius: 10em;
+    }
+
+    .ill {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 2.6875em;
+      height: 2.6875em;
+
+      border-radius: 50%;
+      background: var(--primary);
+
+      img {
+        width: 1.1875em;
+      }
+    }
+
+    .content {
+      margin: 0 0 0 0.9em;
+
+      h4 {
+        font-weight: 600;
+        font-size: 1.03em;
+        line-height: 100%;
+        color: var(--second);
+      }
+
+      h6 {
+        margin: 1.5px 0 0 0;
+
+        font-size: 0.895em;
+        font-weight: 400;
+        color: var(--services-sub2);
+      }
+    }
+  }
 </style>
