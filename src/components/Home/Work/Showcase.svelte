@@ -96,7 +96,7 @@
 
 <style lang="scss">
   .showcase {
-    margin: 5.5rem 0 0 0;
+    margin: 5rem 0 0 0;
 
     overflow-x: hidden;
   }
@@ -141,7 +141,7 @@
     .showcase {
       display: flex;
       align-items: center;
-      margin: 5.5rem 0 6rem 0;
+      margin: 3.78rem 0 6rem 0;
 
       overflow-x: hidden;
     }

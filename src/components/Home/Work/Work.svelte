@@ -28,6 +28,7 @@
       #0c0a0b 20.04%,
       rgba(12, 10, 11, 0.95) 97.82%
     );
+    box-shadow: 0px 4px 174px 0px rgba(0, 0, 0, 0.43);
 
     padding: 4.7em 0 5.2em 0;
   }
