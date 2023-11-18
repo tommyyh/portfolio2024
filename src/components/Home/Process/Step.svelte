@@ -169,7 +169,7 @@
         margin: 0 0 0 0.36em;
 
         line-height: 0.7em;
-        color: #141414;
+        color: #191919;
         font-size: 6.93em;
         font-weight: 500;
       }
@@ -197,7 +197,7 @@
         h4 {
           margin: 2.4rem 0 0 -4.8rem;
           font-size: 11rem;
-          color: #0e0e0e;
+          color: #191919;
         }
       }
     }
@@ -232,7 +232,7 @@
         h4 {
           margin: -2.8rem 0 0 25.54rem;
           font-size: 9rem;
-          color: #0e0e0e;
+          color: #191919;
         }
       }
     }
@@ -267,7 +267,7 @@
         h4 {
           margin: 5.5rem 0 0 -3.67rem;
           font-size: 10rem;
-          color: #0e0e0e;
+          color: #191919;
         }
       }
     }
@@ -299,7 +299,7 @@
         h4 {
           margin: -1.5rem 0 0 21.7rem;
           font-size: 10rem;
-          color: #0e0e0e;
+          color: #191919;
         }
       }
     }
