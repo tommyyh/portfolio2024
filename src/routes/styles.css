@@ -9,12 +9,12 @@
 body {
 	font-family: 'Satoshi', sans-serif;
 
-	margin-bottom: 900px;
+	/* margin-bottom: 900px; */
 }
 
-html {
+/* html {
 	scroll-behavior: smooth;
-}
+} */
 
 :root {
 	--nav-title: #404040;
