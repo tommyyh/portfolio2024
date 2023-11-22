@@ -3,6 +3,14 @@
   import Question from './Question.svelte';
 
   const lang = 'home.faq';
+  $: allOpen = {
+    1: false,
+    2: false,
+    3: false,
+    4: false,
+    5: false,
+    6: false,
+  };
 </script>
 
 <div class="cont">
@@ -17,7 +25,7 @@
 
     <div class="main">
       {#each new Array(6) as _, index}
-        <Question {t} index={index + 1} />
+        <Question {t} index={index + 1} bind:allOpen />
       {/each}
     </div>
   </section>
@@ -63,7 +71,7 @@
 
     section {
       width: var(--width);
-      padding: 16em var(--padding) 0 var(--padding);
+      padding: 14em var(--padding) 0 var(--padding);
 
       h4 {
         font-size: 1.1em;
@@ -101,6 +109,9 @@
     .main {
       display: grid;
       grid-template-columns: repeat(auto-fill, 50% 50%);
+      height: auto;
+      justify-content: flex-start;
+      align-items: flex-start;
 
       margin: 3rem 0 0 0;
     }

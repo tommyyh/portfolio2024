@@ -1,17 +1,39 @@
 <script>
   export let t;
   export let index;
+  export let allOpen;
   import chevronDownSVG from '$lib/images/chevron-down.svg';
 
-  $: open = false;
   const lang = `home.faq.list.${index}`;
 
   const onClick = () => {
-    open = !open;
+    if (allOpen[index]) {
+      allOpen = {
+        1: false,
+        2: false,
+        3: false,
+        4: false,
+        5: false,
+        6: false,
+      };
+    } else {
+      allOpen = {
+        1: false,
+        2: false,
+        3: false,
+        4: false,
+        5: false,
+        6: false,
+      };
+      allOpen = { ...allOpen, [index]: true };
+    }
   };
 </script>
 
-<div class={open ? 'question question-open' : 'question'} on:click={onClick}>
+<div
+  class={allOpen[index] ? 'question question-open' : 'question'}
+  on:click={onClick}
+>
   <div class="main">
     <div class="left">
       <h3>{$t(`${lang}.title`)}</h3>
@@ -23,7 +45,7 @@
     </div>
   </div>
 
-  <p class={open ? 'answer answer-active' : 'answer'}>
+  <p class={allOpen[index] ? 'answer answer-active' : 'answer'}>
     {$t(`${lang}.text`)}
   </p>
 </div>
@@ -63,6 +85,10 @@
     padding: 1.68em 2em;
 
     border-radius: 0.9em;
+
+    img {
+      transform: rotate(180deg);
+    }
   }
 
   .left {
@@ -105,9 +131,12 @@
     border-radius: 50%;
 
     img {
+      position: relative;
       margin: 0 0 0 -1px;
       width: 0.83em;
       height: 0.66em;
+
+      transition: ease 450ms;
     }
   }
 
@@ -135,6 +164,7 @@
 
   @media all and (min-width: 1025px) {
     .question {
+      max-height: 6.545625rem;
       width: 96.3%;
       margin: 1.1em 0 0 0;
       padding: 1.9em 2em 1.9em 3em;
@@ -199,6 +229,7 @@
     }
 
     .question-open {
+      max-height: initial;
       padding: 1.68em 2em;
 
       border-radius: 0.9em;
@@ -218,7 +249,8 @@
 
       font-size: 0.98em;
       color: var(--text);
-      transition: ease 300ms;
+      // transition: ease 300ms;
+      transition: none;
       user-select: none;
     }
 
