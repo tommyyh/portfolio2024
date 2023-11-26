@@ -29,4 +29,23 @@
       text-decoration: none;
     }
   }
+
+  @media all and (min-width: 1025px) {
+    section {
+      padding: 1.79em var(--padding) 0 var(--padding);
+
+      li {
+        margin: 0.45em 0 0 0;
+
+        font-size: 1.19em;
+        list-style-type: none;
+        color: var(--sub2);
+      }
+
+      a {
+        color: var(--sub2);
+        text-decoration: none;
+      }
+    }
+  }
 </style>

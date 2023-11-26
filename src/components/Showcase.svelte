@@ -1,6 +1,6 @@
 <script>
   import AdonioPng from '$lib/images/projects/adonio.png';
-  import EliteEdgePng from '$lib/images/projects/elite-edge.png';
+  import EliteEdgePng from '$lib/images/projects/edge.png';
   import JubefaConstructionPng from '$lib/images/projects/jubefa-construction.png';
   import JubefaImmobilienPng from '$lib/images/projects/jubefa-immobilien.png';
   import OnteePng from '$lib/images/projects/ontee.png';
@@ -11,45 +11,53 @@
   import JubefaImmobilienPngBlurred from '$lib/images/projects/blurred/jubefa-immobilien.png';
   import OnteePngBlurred from '$lib/images/projects/blurred/ontee.png';
   import RimmingtonPngBlurred from '$lib/images/projects/blurred/rimmington.png';
+  import JubefaMainPng from '$lib/images/projects/jubefa-main.png';
+  import JubefaMainPngBlurred from '$lib/images/projects/blurred/jubefa-main.jpg';
   import Image from './Image.svelte';
   import { onMount } from 'svelte';
 
   let images = [
     {
+      src: JubefaMainPng,
+      blurredSrc: JubefaMainPngBlurred,
+      alt: 'Jubefa',
+      link: 'https://jubefa-main.vercel.app/en',
+    },
+    {
       src: AdonioPng,
       blurredSrc: AdonioPngBlurred,
       alt: 'Adonio Store',
-      link: '/',
+      link: 'https://www.adonio.cz/',
     },
     {
       src: EliteEdgePng,
       blurredSrc: EliteEdgePngBlurred,
       alt: 'Elite Edge Gym',
-      link: '/',
+      link: 'https://edge-omega.vercel.app/',
     },
     {
       src: JubefaConstructionPng,
       blurredSrc: JubefaConstructionPngBlurred,
       alt: 'Jubefa Construction Real Estate',
-      link: '/',
+      link: 'https://www.jubefa-constructions.com/en/',
     },
     {
       src: JubefaImmobilienPng,
       blurredSrc: JubefaImmobilienPngBlurred,
       alt: 'Jubefa Immobilien Real Estate',
-      link: '/',
+      link: 'https://www.jubefa-immobilien.de/en',
     },
     {
       src: OnteePng,
       blurredSrc: OnteePngBlurred,
       alt: 'Ontee golf all over the world',
-      link: '/',
+      link: 'https://www.ontee.com/en/',
     },
     {
       src: RimmingtonPng,
       blurredSrc: RimmingtonPngBlurred,
       alt: 'Rimmington pharmacy in Bradford',
-      link: '/',
+      link: 'https://rimmington.vercel.app/',
     },
   ];
   let showcase1El;
@@ -117,7 +125,7 @@
 <section bind:this={sectionEl}>
   <div class="showcase1" bind:this={showcase1El}>
     {#each showcase1Images as image (image)}
-      <a href={image.link}>
+      <a href={image.link} target="_blank">
         <Image
           src={image.src}
           alt={image.alt}
@@ -130,7 +138,7 @@
 
   <div class="showcase2" bind:this={showcase2El}>
     {#each showcase2Images as image (image)}
-      <a href={image.link}>
+      <a href={image.link} target="_blank">
         <Image
           src={image.src}
           alt={image.alt}

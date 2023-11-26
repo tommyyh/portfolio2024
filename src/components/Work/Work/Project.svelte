@@ -22,34 +22,60 @@
 
 <main>
   <div class="content">
-    <h4>{$t(`${lang}.sub`)}</h4>
-    <h1>{$t(`${lang}.title`)}</h1>
-    <p>{$t(`${lang}.text`)}</p>
+    <div>
+      <h4>{$t(`${lang}.sub`)}</h4>
+      <h1>{$t(`${lang}.title`)}</h1>
+    </div>
 
-    <LinkButton
-      title={$t(`${lang}.cta.title`)}
-      linkTo={$t(`${lang}.cta.linkTo`)}
-      blank={$t(`${lang}.cta.blank`)}
-    />
+    <div>
+      <p>{$t(`${lang}.text`)}</p>
+
+      <LinkButton
+        title={$t(`${lang}.cta.title`)}
+        linkTo={$t(`${lang}.cta.linkTo`)}
+        blank={$t(`${lang}.cta.blank`)}
+      />
+    </div>
   </div>
 
   <div class="images">
-    {#each new Array(4) as _, index}
-      {#await importImage($t(`${lang}.image${index + 1}`))}
-        <a href={$t(`${lang}.webLink`)} target="_blank">
-          <img src={jubefaMain1PngBlurred} alt="Service illustration" />
-        </a>
-      {:then imageSrc}
-        <a href={$t(`${lang}.webLink`)} target="_blank">
-          <Image
-            blurredSrc={imageSrc.imgBlurred}
-            src={imageSrc.img}
-            alt={'efefefe'}
-            customClass="image"
-          />
-        </a>
-      {/await}
-    {/each}
+    <div class="first first1">
+      {#each new Array(2) as _, index}
+        {#await importImage($t(`${lang}.image${index + 1}`))}
+          <a href={$t(`${lang}.webLink`)} target="_blank">
+            <img src={jubefaMain1PngBlurred} alt="Service illustration" />
+          </a>
+        {:then imageSrc}
+          <a href={$t(`${lang}.webLink`)} target="_blank">
+            <Image
+              blurredSrc={imageSrc.imgBlurred}
+              src={imageSrc.img}
+              alt={'efefefe'}
+              customClass="image"
+            />
+          </a>
+        {/await}
+      {/each}
+    </div>
+
+    <div class="first second">
+      {#each new Array(2) as _, index}
+        {#await importImage($t(`${lang}.image${index + 3}`))}
+          <a href={$t(`${lang}.webLink`)} target="_blank">
+            <img src={jubefaMain1PngBlurred} alt="Service illustration" />
+          </a>
+        {:then imageSrc}
+          <a href={$t(`${lang}.webLink`)} target="_blank">
+            <Image
+              blurredSrc={imageSrc.imgBlurred}
+              src={imageSrc.img}
+              alt={'efefefe'}
+              customClass="image"
+            />
+          </a>
+        {/await}
+      {/each}
+    </div>
   </div>
 </main>
 
@@ -103,6 +129,10 @@
     box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.25);
   }
 
+  .first {
+    display: flex;
+  }
+
   .images :global(.image) {
     width: 19.19rem;
     height: 12.5rem;
@@ -110,5 +140,78 @@
 
     object-fit: cover;
     box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  @media all and (min-width: 1025px) {
+    main {
+      margin: 15.7rem 0 0 0;
+
+      &:first-child {
+        margin: 6.2rem 0 0 0;
+      }
+
+      &:last-child {
+        margin-bottom: 3.2rem;
+      }
+
+      a {
+        margin: 0 1.9rem 0 0;
+      }
+    }
+
+    .second {
+      display: flex;
+      justify-content: flex-end;
+
+      margin: 1.72rem -1.9rem 0 0;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: 47% 48%;
+      padding: 0 0 2.5rem 0;
+
+      h4 {
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: var(--dark-sub);
+      }
+
+      h1 {
+        margin: 0.3rem 0.5rem 0 0;
+
+        font-size: 2.7rem;
+        font-weight: 600;
+        line-height: 110.5%;
+        color: var(--second);
+      }
+
+      p {
+        margin: 1.8rem 0 2rem 0;
+
+        font-size: 1.18rem;
+        line-height: 150.5%;
+        font-weight: 400;
+        color: var(--text2);
+      }
+    }
+
+    .images {
+      display: initial;
+
+      overflow-x: initial;
+      margin: 3rem 0 0 0;
+      padding: 0;
+      box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .images :global(.image) {
+      width: 32.94rem;
+      height: 18.53rem;
+      margin: 0 0 0 0;
+
+      object-fit: cover;
+      box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.25);
+    }
   }
 </style>

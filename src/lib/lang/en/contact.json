@@ -12,7 +12,9 @@
   },
   "landing": {
     "sub": "Get In Touch With Us",
-    "title": "Contact Us Today And Ensure Your Company’s Success"
+    "title": "Contact Us Today And Ensure Your Company’s Success",
+    "text": "The first step to getting your business more sales and visibility is to contact us. Together we will create a perfect website that will be sure to get you results.",
+    "cta": "Fill Out The Form"
   },
   "form": {
     "name": "Enter Your Name...",

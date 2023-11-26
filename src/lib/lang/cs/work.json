@@ -1,64 +1,155 @@
 {
   "header": {
-    "home": "Home",
-    "work": "Our Work",
-    "services": "Services",
-    "contact": "Contact Us",
+    "home": "Domů",
+    "work": "Naše Práce",
+    "services": "Služby",
+    "contact": "Kontakt",
     "english": "English",
     "czech": "Čeština"
   },
   "head": {
-    "title": "Web Agency - Tommy Hoang"
+    "title": "Webová Agentura - Tommy Hoang"
   },
-  "landing": {
-    "sub": "Get In Touch With Us",
-    "title": "Contact Us Today And Ensure Your Company’s Success"
-  },
-  "form": {
-    "name": "Enter Your Name...",
-    "mail": "Enter Your Email Address...",
-    "service": "Select Service",
-    "service1": "New website",
-    "service2": "Website Redesign",
-    "url": "Website URL (Optional)",
-    "msg": "Tell Me About Your Project",
-    "cta": "Send Message"
-  },
-  "info": {
-    "tel": "Tel: +420 797602438",
-    "mail": "Email: tommyyhoangg@gmail.com",
-    "location": "Location: Czech Republic"
+  "work": {
+    "amount": "7",
+    "list": {
+      "1": {
+        "sub": "1, Nemovitostní firma",
+        "title": "Hlavní webová stránka společnosti JubefaGmbh pro realitní podnikání",
+        "text": "JubefaGmbh je německá nemovitostní firma, která se zabývá vším od prodeje a nákupu nemovitostí až po instalaci solárních panelů a obecné stavby.",
+        "cta": {
+          "title": "Navštívit Website",
+          "linkTo": "https://jubefa-main.vercel.app/en",
+          "blank": "true"
+        },
+        "webLink": "https://jubefa-main.vercel.app/en",
+        "image1": "jubefa-main1",
+        "image2": "jubefa-main2",
+        "image3": "jubefa-main3",
+        "image4": "jubefa-main4"
+      },
+      "2": {
+        "sub": "2, E-shop s teniskami",
+        "title": "Adonio prodává kvalitní tenisky a boty po celé Evropě",
+        "text": "Adonio je česká společnost, která prodává oblíbené tenisky pro lidi z celé Evropy. Hlavně v České republice a na Slovensku. Navštivte jejich webovou stránku a získejte úžasné nabídky!",
+        "cta": {
+          "title": "Navštívit Website",
+          "linkTo": "https://www.adonio.cz/",
+          "blank": "true"
+        },
+        "webLink": "https://www.adonio.cz/",
+        "image1": "adonio1",
+        "image2": "adonio2",
+        "image3": "adonio3",
+        "image4": "adonio4"
+      },
+      "3": {
+        "sub": "3, Online rezervace golfového hřiště",
+        "title": "Rezervujte si golfové hřiště po celém světě pomocí Ontee",
+        "text": "Ontee je známá švédská společnost, která revolučním způsobem změnila způsob, jakým si lidé rezervují golfové hřiště. Umožňuje lidem rychle rezervovat s nulovým úsilím po celém světě.",
+        "cta": {
+          "title": "Navštívit Website",
+          "linkTo": "https://www.ontee.com/en/",
+          "blank": "true"
+        },
+        "webLink": "https://www.ontee.com/en/",
+        "image1": "ontee1",
+        "image2": "ontee2",
+        "image3": "ontee3",
+        "image4": "ontee4"
+      },
+      "4": {
+        "sub": "4, Nemovitostní firma",
+        "title": "JubefaImmobilien kupuje nechtěné & staré nemovitosti.",
+        "text": "JubefaImmobilien je německá dceřiná společnost firmy JubefaGmbh, která se zabývá nákupem nechtěných nemovitostí. Díky svému novému krásnému webu může oslovit lidi z celého světa.",
+        "cta": {
+          "title": "Navštívit Website",
+          "linkTo": "https://www.jubefa-immobilien.de/en",
+          "blank": "true"
+        },
+        "webLink": "https://www.jubefa-immobilien.de/en",
+        "image1": "jubefa-i1",
+        "image2": "jubefa-i2",
+        "image3": "jubefa-i3",
+        "image4": "jubefa-i4"
+      },
+      "5": {
+        "sub": "5, Lékarna v Anglii",
+        "title": "Udělejte si rychlou rezervaci na očkování proti chřipce",
+        "text": "Lékárna Rimmington je známá lékárna v Anglii, která pacientům již dlouhou dobu poskytuje očkování proti chřipce. Díky našemu online rezervačnímu formuláři se jim podařilo revolučně změnit způsob, jakým pacienti dostávají každoroční očkování proti chřipce.",
+        "cta": {
+          "title": "Navštívit Website",
+          "linkTo": "https://rimmington.vercel.app/",
+          "blank": "true"
+        },
+        "webLink": "https://rimmington.vercel.app/",
+        "image1": "rimmington1",
+        "image2": "rimmington2",
+        "image3": "rimmington3",
+        "image4": "rimmington4"
+      },
+      "6": {
+        "sub": "6, Nemovitostní firma",
+        "title": "JubefaConstruction nabízí několik služeb na staré nemovitosti",
+        "text": "JubefaConstructions je dceřiná společnost společnosti JubefaGmbh, která nabízí řadu služeb na pomoc lidem se starými nemovitostmi, jako jsou rekonstrukce, instalace solárních panelů a další.",
+        "cta": {
+          "title": "Navštívit Website",
+          "linkTo": "https://www.jubefa-constructions.com/en/",
+          "blank": "true"
+        },
+        "webLink": "https://www.jubefa-constructions.com/en/",
+        "image1": "jubefa-c1",
+        "image2": "jubefa-c2",
+        "image3": "jubefa-c3",
+        "image4": "jubefa-c4"
+      },
+      "7": {
+        "sub": "7, Posilovna & Fitnes",
+        "title": "EliteEdge Posilovna může oslovit více lidí díky nové webové stránce",
+        "text": "EliteEdge je šablona webovéch stránky pro posilovnu pro nadcházející posilovny, které chtějí rozšířit svůj viv online, aby oslovili více lidí, které by normálně nenašli.",
+        "cta": {
+          "title": "Navštívit Website",
+          "linkTo": "https://www.ontee.com/en/",
+          "blank": "true"
+        },
+        "webLink": "https://www.ontee.com/en/",
+        "image1": "edge1",
+        "image2": "edge2",
+        "image3": "edge3",
+        "image4": "edge4"
+      }
+    }
   },
   "reviews": {
-    "sub": "Our Reviews",
-    "title": "Have A Look At What Others Have To Say About Us",
-    "text": "Our clients love working with us! Read their testimonials and discover how we've helped businesses thrive with our web solutions.",
+    "sub": "Naše recenze",
+    "title": "Podívejte se, co o nás říkají ostatní",
+    "text": "Naši klienti s námi rádi spolupracují! Přečtěte si jejich recenze a zjistěte, jak jsme díky našim webovým řešením pomohli firmám prospívat.",
     "list": {
       "1": {
         "author": "Dr. Murtaza Sajid",
         "sub": "Rimmingtons COVID Team",
-        "text": "Just wanted to say a huge thanks to Tommy for his incredible work and vision with our website. He was very responsive and kept me up to date with the whole journey answering many questions along the way. He revolutionized the way we take bookings and had a huge influence on the success of how we now operate. Would and will use his services again in the future.",
+        "text": "Jen jsem chtěl Tommymu poděkovat za jeho neuvěřitelnou práci a vizi s našimi webovými stránkami. Velmi ochotně reagoval a průběžně mě informoval o celé cestě a odpovídal na mnoho otázek. Způsobil revoluci ve způsobu, jakým přijímáme rezervace, a měl obrovský vliv na úspěch toho, jak nyní fungujeme. Jeho služeb bychom využili a využijeme i v budoucnu. [CZ Translation]",
         "rating": "4.8"
       },
       "2": {
         "author": "Jan Lužecký",
         "sub": "Ontee Team",
-        "text": "I recommend working with Tommy. He is reliable and quick to learn new things. He's easy to work with. [EN Translation]",
+        "text": "Doporučuji spolupráci s Tommym. Je spolehlivý a rychle se učí novým věcem. Je bezproblémový.",
         "rating": "4.2"
       },
       "3": {
         "author": "Justus-Konrad Flade",
         "sub": "JubefaGmbH CEO",
-        "text": "Tommy is a guy that finds solutions, where they are needed the most. That's why working with him is a pleasure.",
+        "text": "Tommy je člověk, který nachází řešení tam, kde je jich nejvíce potřeba. Proto je s ním radost pracovat. [CZ Translation]",
         "rating": "4.6"
       }
     }
   },
   "footer": {
-    "sub": "Web Development & Design",
-    "title": "Breathtaking Websites That Will Increase Your Sales",
-    "text": "Our breathtaking websites keep visitors attention and maximize conversions. With stunning design and call-to-actions, we'll elevate your sales and boost ROI.",
-    "cta": "Get More Sales",
+    "sub": "Vývoj a design webu",
+    "title": "Úchvatné webové stránky, které zvýší vaš zisk",
+    "text": "Naše úchvatné webové stránky udržují pozornost návštěvníků a maximalizují konverze. Díky úžasnému designu a obsahu zvýšíme vaše prodeje a zisk.",
+    "cta": "Získat více tržeb",
     "name": "TommyHoang",
     "mail": "tommyyhoangg@gmail.com"
   }

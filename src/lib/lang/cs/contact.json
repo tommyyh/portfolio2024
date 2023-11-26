@@ -12,7 +12,9 @@
   },
   "landing": {
     "sub": "Ozvěte se nám",
-    "title": "Kontaktujte nás ještě dnes a zajistěte úspěch své firmy"
+    "title": "Kontaktujte nás ještě dnes a zajistěte úspěch své firmy",
+    "text": "Prvním krokem ke zvýšení prodeje a zviditelnění vaší firmy je nás kontaktovat. Společně vytvoříme dokonalou webovou stránku, která vám zaručí výsledky.",
+    "cta": "Vyplňte formulář"
   },
   "form": {
     "name": "Zadejte své jméno...",
@@ -55,10 +57,10 @@
     }
   },
   "footer": {
-    "sub": "Web Development & Design",
-    "title": "Breathtaking Websites That Will Increase Your Sales",
-    "text": "Our breathtaking websites keep visitors attention and maximize conversions. With stunning design and call-to-actions, we'll elevate your sales and boost ROI.",
-    "cta": "Get More Sales",
+    "sub": "Vývoj a design webu",
+    "title": "Úchvatné webové stránky, které zvýší vaš zisk",
+    "text": "Naše úchvatné webové stránky udržují pozornost návštěvníků a maximalizují konverze. Díky úžasnému designu a obsahu zvýšíme vaše prodeje a zisk.",
+    "cta": "Získat více tržeb",
     "name": "TommyHoang",
     "mail": "tommyyhoangg@gmail.com"
   }

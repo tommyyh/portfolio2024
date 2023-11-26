@@ -40,4 +40,33 @@
     font-size: 1.04rem;
     font-weight: 600;
   }
+
+  @media all and (min-width: 1025px) {
+    a {
+      display: flex;
+      align-items: center;
+
+      color: var(--second);
+    }
+
+    .img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 2.1rem;
+      height: 2.1rem;
+
+      border-radius: 50%;
+      background: var(--second);
+    }
+
+    p {
+      margin: -1px 0 0 0.7rem;
+
+      color: var(--second);
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+  }
 </style>

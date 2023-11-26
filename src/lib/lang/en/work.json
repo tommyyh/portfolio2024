@@ -15,8 +15,8 @@
     "list": {
       "1": {
         "sub": "1, Real estate company",
-        "title": "JubefaImmobilien Is Buying Unwanted Properties",
-        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "title": "JubefaGmbh's Main Website For Real Estate Ventures",
+        "text": "JubefaGmbh is a German real estate company, that does everything from selling & buying properties to installing solar panels and general constructions.",
         "cta": {
           "title": "View Website",
           "linkTo": "https://jubefa-main.vercel.app/en",
@@ -29,94 +29,94 @@
         "image4": "jubefa-main4"
       },
       "2": {
-        "sub": "1, Real estate company",
-        "title": "JubefaImmobilien Is Buying Unwanted Properties",
-        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "sub": "2, Sneaker E-shop",
+        "title": "Adonio Sells High Quality Sneakers & Shoes all around Europe",
+        "text": "Adonio is a Czech company, that sells popular sneakers for people all around Europe. Mainly Czech Republic and Slovakia. Visit the website for some amazing deals!",
         "cta": {
           "title": "View Website",
-          "linkTo": "https://jubefa-main.vercel.app/en",
+          "linkTo": "https://www.adonio.cz/",
           "blank": "true"
         },
-        "webLink": "https://jubefa-main.vercel.app/en",
-        "image1": "jubefa-main1",
-        "image2": "jubefa-main2",
-        "image3": "jubefa-main3",
-        "image4": "jubefa-main4"
+        "webLink": "https://www.adonio.cz/",
+        "image1": "adonio1",
+        "image2": "adonio2",
+        "image3": "adonio3",
+        "image4": "adonio4"
       },
       "3": {
-        "sub": "1, Real estate company",
-        "title": "JubefaImmobilien Is Buying Unwanted Properties",
-        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "sub": "3, Online Golf Reservations",
+        "title": "Make Online Golf Reservations All Over The Globe With Ontee",
+        "text": "Ontee is a well-known swedish company, that revolutionized the way people make golf reservations. They allow users to make quick bookings with zero effort all around the world.",
         "cta": {
           "title": "View Website",
-          "linkTo": "https://jubefa-main.vercel.app/en",
+          "linkTo": "https://www.ontee.com/en/",
           "blank": "true"
         },
-        "webLink": "https://jubefa-main.vercel.app/en",
-        "image1": "jubefa-main1",
-        "image2": "jubefa-main2",
-        "image3": "jubefa-main3",
-        "image4": "jubefa-main4"
+        "webLink": "https://www.ontee.com/en/",
+        "image1": "ontee1",
+        "image2": "ontee2",
+        "image3": "ontee3",
+        "image4": "ontee4"
       },
       "4": {
-        "sub": "1, Real estate company",
+        "sub": "4, Real estate company",
         "title": "JubefaImmobilien Is Buying Unwanted Properties",
-        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "text": "JubefaImmobilien is a German subsidiary company owned by JubefaGmbh, that buys unwanted properties. With their new beautiful website they can reach people from all around the world.",
         "cta": {
           "title": "View Website",
-          "linkTo": "https://jubefa-main.vercel.app/en",
+          "linkTo": "https://www.jubefa-immobilien.de/en",
           "blank": "true"
         },
-        "webLink": "https://jubefa-main.vercel.app/en",
-        "image1": "jubefa-main1",
-        "image2": "jubefa-main2",
-        "image3": "jubefa-main3",
-        "image4": "jubefa-main4"
+        "webLink": "https://www.jubefa-immobilien.de/en",
+        "image1": "jubefa-i1",
+        "image2": "jubefa-i2",
+        "image3": "jubefa-i3",
+        "image4": "jubefa-i4"
       },
       "5": {
-        "sub": "1, Real estate company",
-        "title": "JubefaImmobilien Is Buying Unwanted Properties",
-        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "sub": "5, England Pharmacy",
+        "title": "Make A Fast Reservation For Flu Jabs With Rimmington Pharmacy",
+        "text": "Rimmington Pharmacy is a well-established England pharmacy that's been giving patients flu jabs for a long time. With our online reservation form, they were able to revolutionize the way patients get their annual flu jabs.",
         "cta": {
           "title": "View Website",
-          "linkTo": "https://jubefa-main.vercel.app/en",
+          "linkTo": "https://rimmington.vercel.app/",
           "blank": "true"
         },
-        "webLink": "https://jubefa-main.vercel.app/en",
-        "image1": "jubefa-main1",
-        "image2": "jubefa-main2",
-        "image3": "jubefa-main3",
-        "image4": "jubefa-main4"
+        "webLink": "https://rimmington.vercel.app/",
+        "image1": "rimmington1",
+        "image2": "rimmington2",
+        "image3": "rimmington3",
+        "image4": "rimmington4"
       },
       "6": {
-        "sub": "1, Real estate company",
-        "title": "JubefaImmobilien Is Buying Unwanted Properties",
-        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "sub": "6, Real estate company",
+        "title": "JubefaConstructions Offer Several Services To Help With Old Properties",
+        "text": "JubefaConstructions is a subsidiary company owned by JubefaGmbh, that offers numerous services to help with people's old properties such as reconstructions, solar panel installations, revitalization of brownfields & more.",
         "cta": {
           "title": "View Website",
-          "linkTo": "https://jubefa-main.vercel.app/en",
+          "linkTo": "https://www.jubefa-constructions.com/en/",
           "blank": "true"
         },
-        "webLink": "https://jubefa-main.vercel.app/en",
-        "image1": "jubefa-main1",
-        "image2": "jubefa-main2",
-        "image3": "jubefa-main3",
-        "image4": "jubefa-main4"
+        "webLink": "https://www.jubefa-constructions.com/en/",
+        "image1": "jubefa-c1",
+        "image2": "jubefa-c2",
+        "image3": "jubefa-c3",
+        "image4": "jubefa-c4"
       },
       "7": {
-        "sub": "1, Real estate company",
-        "title": "JubefaImmobilien Is Buying Unwanted Properties",
-        "text": "JubefaImmobilien is a German company that is buying unwanted properties from all over the world. With their beautiful website, they are able to reach out to more people.",
+        "sub": "7, Gym Company",
+        "title": "EliteEdge Gym Can Reach More People With Their New Website",
+        "text": "EliteEdge is a gym website template for upcoming fitness & gym companies wanting to expand their business online, in order to reach more people they normally couldn't.",
         "cta": {
           "title": "View Website",
-          "linkTo": "https://jubefa-main.vercel.app/en",
+          "linkTo": "https://www.ontee.com/en/",
           "blank": "true"
         },
-        "webLink": "https://jubefa-main.vercel.app/en",
-        "image1": "jubefa-main1",
-        "image2": "jubefa-main2",
-        "image3": "jubefa-main3",
-        "image4": "jubefa-main4"
+        "webLink": "https://www.ontee.com/en/",
+        "image1": "edge1",
+        "image2": "edge2",
+        "image3": "edge3",
+        "image4": "edge4"
       }
     }
   },
