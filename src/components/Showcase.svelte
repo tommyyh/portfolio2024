@@ -1,6 +1,6 @@
 <script>
   import AdonioPng from '$lib/images/projects/adonio.png';
-  import EliteEdgePng from '$lib/images/projects/edge.png';
+  import EliteEdgePng from '$lib/images/projects/elite-edge.png';
   import JubefaConstructionPng from '$lib/images/projects/jubefa-construction.png';
   import JubefaImmobilienPng from '$lib/images/projects/jubefa-immobilien.png';
   import OnteePng from '$lib/images/projects/ontee.png';
