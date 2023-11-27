@@ -46,7 +46,7 @@
       "3": {
         "sub": "3, Online Golf Reservations",
         "title": "Make Online Golf Reservations All Over The Globe With Ontee",
-        "text": "Ontee is a well-known swedish company, that revolutionized the way people make golf reservations. They allow users to make quick bookings with zero effort all around the world.",
+        "text": "Ontee is a well-known swedish company, that revolutionized the way people make golf reservations. They allow users to make quick bookings with zero effort wherever they want.",
         "cta": {
           "title": "View Website",
           "linkTo": "https://www.ontee.com/en/",
@@ -75,7 +75,7 @@
       },
       "5": {
         "sub": "5, England Pharmacy",
-        "title": "Make A Fast Reservation For Flu Jabs With Rimmington Pharmacy",
+        "title": "Make A Fast Reservation For A Flu Jab With Rimmington Pharmacy",
         "text": "Rimmington Pharmacy is a well-established England pharmacy that's been giving patients flu jabs for a long time. With our online reservation form, they were able to revolutionize the way patients get their annual flu jabs.",
         "cta": {
           "title": "View Website",
@@ -109,10 +109,10 @@
         "text": "EliteEdge is a gym website template for upcoming fitness & gym companies wanting to expand their business online, in order to reach more people they normally couldn't.",
         "cta": {
           "title": "View Website",
-          "linkTo": "https://www.ontee.com/en/",
+          "linkTo": "https://edge-omega.vercel.app/",
           "blank": "true"
         },
-        "webLink": "https://www.ontee.com/en/",
+        "webLink": "https://edge-omega.vercel.app/",
         "image1": "edge1",
         "image2": "edge2",
         "image3": "edge3",

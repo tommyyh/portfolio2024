@@ -160,7 +160,7 @@
       },
       "3": {
         "title": "3, Navrhování prototypu",
-        "text": "Vytvoříme návrh prototypu pro vizualizaci webové stránek. V této fázi je provádění změn a zdokonalování velmi snadné a rychlé, proto je důležité, aby bylo vše perfektní."
+        "text": "Vytvoříme návrh prototypu pro vizualizaci webové stránky. V této fázi je provádění změn a zdokonalování velmi snadné a rychlé, proto je důležité, aby bylo vše perfektní."
       },
       "4": {
         "title": "4, Vývoj & Nasazení",
@@ -176,7 +176,7 @@
       "1": {
         "author": "Dr. Murtaza Sajid",
         "sub": "Rimmingtons COVID Team",
-        "text": "Jen jsem chtěl Tommymu poděkovat za jeho neuvěřitelnou práci a vizi s našimi webovými stránkami. Velmi ochotně reagoval a průběžně mě informoval o celé cestě a odpovídal na mnoho otázek. Způsobil revoluci ve způsobu, jakým přijímáme rezervace, a měl obrovský vliv na úspěch toho, jak nyní fungujeme. Jeho služeb bychom využili a využijeme i v budoucnu. [CZ Translation]",
+        "text": "Jen jsem chtěl Tommymu poděkovat za jeho neuvěřitelnou práci a vizi s naší webovou stránkou. Velmi ochotně reagoval a průběžně mě informoval o celé cestě a odpovídal na mnoho otázek. Způsobil revoluci ve způsobu, jakým přijímáme rezervace, a měl obrovský vliv na úspěch toho, jak nyní fungujeme. Jeho služeb bychom využili a využijeme i v budoucnu. [CZ Translation]",
         "rating": "4.8"
       },
       "2": {
@@ -196,12 +196,12 @@
   "faq": {
     "sub": "Často kladené otázky",
     "title": "Často kladené otázky našich předchozích zákazníků",
-    "text": "Chápeme, že investovat do webových stránek může být obavující, zejména pokud jste nikdy neměli webovou stránky a začínáte se zaměřovat na digitální stránku podnikání, proto jsme zde, abychom vám odpověděli na otázky, které můžete mít.",
+    "text": "Chápeme, že investovat do webových stránek může být obavující, zejména pokud jste nikdy neměli webovou stránku a začínáte se zaměřovat na digitální stránku podnikání, proto jsme zde, abychom vám odpověděli na otázky, které můžete mít.",
     "list": {
       "1": {
         "sub": "Cena webové stránky",
         "title": "Kolik bude moje webová stránka stát?",
-        "text": "Cena vaše webové stránky budou záviset na faktorech, jako je složitost designu, počet funkcí a hlavně velikost webové stránky. Základní web se může pohybovat v rozmezí od několika tisíců do desítek tisíců, zatímco složité weby, např e-shopy mohou stát o dost více."
+        "text": "Cena vaše webové stránky bude záviset na faktorech, jako je složitost designu, počet funkcí a hlavně velikost webové stránky. Základní web se může pohybovat v rozmezí od několika tisíců do desítek tisíců, zatímco složité weby, např e-shopy mohou stát o dost více."
       },
       "2": {
         "sub": "Doba vývoje stránky",

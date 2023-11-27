@@ -46,7 +46,7 @@
       "3": {
         "sub": "3, Online rezervace golfového hřiště",
         "title": "Rezervujte si golfové hřiště po celém světě pomocí Ontee",
-        "text": "Ontee je známá švédská společnost, která revolučním způsobem změnila způsob, jakým si lidé rezervují golfové hřiště. Umožňuje lidem rychle rezervovat s nulovým úsilím po celém světě.",
+        "text": "Ontee je známá švédská společnost, která revolučním způsobem změnila způsob, jakým si lidé rezervují golfové hřiště. Umožňuje lidem rychle rezervovat s nulovým úsilím kdekoliv chtějí.",
         "cta": {
           "title": "Navštívit Website",
           "linkTo": "https://www.ontee.com/en/",
@@ -109,10 +109,10 @@
         "text": "EliteEdge je šablona webovéch stránky pro posilovnu pro nadcházející posilovny, které chtějí rozšířit svůj viv online, aby oslovili více lidí, které by normálně nenašli.",
         "cta": {
           "title": "Navštívit Website",
-          "linkTo": "https://www.ontee.com/en/",
+          "linkTo": "https://edge-omega.vercel.app/",
           "blank": "true"
         },
-        "webLink": "https://www.ontee.com/en/",
+        "webLink": "https://edge-omega.vercel.app/",
         "image1": "edge1",
         "image2": "edge2",
         "image3": "edge3",
