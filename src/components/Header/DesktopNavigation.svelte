@@ -2,6 +2,8 @@
   import { page } from '$app/stores';
   import { loadTranslations } from '$lib/lang/translations';
   export let t;
+  export let servicesScrollToView;
+  export let isHome;
 
   let lang;
 
@@ -30,9 +32,20 @@
     <li aria-current={$page.url.pathname === '/work' ? 'page' : undefined}>
       <a href="/work">{$t(`${lang}.work`)}</a>
     </li>
-    <li aria-current={$page.url.pathname === '/services' ? 'page' : undefined}>
-      <a href="">{$t(`${lang}.services`)}</a>
-    </li>
+    {#if isHome}
+      <li
+        aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
+        on:click={servicesScrollToView}
+      >
+        {$t(`${lang}.services`)}
+      </li>
+    {:else}
+      <li
+        aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
+      >
+        <a href="/">{$t(`${lang}.services`)}</a>
+      </li>
+    {/if}
   </ul>
 </nav>
 
@@ -56,6 +69,7 @@
       padding: 0.5rem 0.9rem;
       font-size: 0.975rem;
       font-weight: 400;
+      cursor: pointer;
     }
 
     a {

@@ -13,7 +13,7 @@
 
       <div>
         <p>{$t('home.work.text')}</p>
-        <button>{$t('home.work.cta')}</button>
+        <a href="/work">{$t('home.work.cta')}</a>
       </div>
     </div>
   </section>
@@ -52,7 +52,7 @@
     }
 
     p {
-      margin: 1.26em 0 0 0;
+      margin: 1.26em 0 2.99em 0;
 
       font-size: 0.94em;
       font-weight: 300;
@@ -60,8 +60,8 @@
       color: var(--dark-text);
     }
 
-    button {
-      margin: 1.94em 0 0 0;
+    a {
+      margin: 0 0 0 0;
       padding: 0.74em 1.9em;
 
       font-size: 0.97em;
@@ -88,7 +88,7 @@
       background: linear-gradient(
         110deg,
         #0c0a0b 20.04%,
-        rgba(12, 10, 11, 0.95) 97.82%
+        rgba(12, 10, 11, 0.95) 95.82%
       );
       margin: 3.7em 0 0 0;
     }
@@ -125,7 +125,7 @@
       }
 
       p {
-        margin: 2em 22% 0 0;
+        margin: 2em 22% 1.94em 0;
 
         font-size: 1.1em;
         font-weight: 300;
@@ -133,8 +133,7 @@
         color: var(--primary);
       }
 
-      button {
-        margin: 1.94em 0 0 0;
+      a {
         padding: 0.74em 1.9em;
 
         font-size: 1.01em;

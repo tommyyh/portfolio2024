@@ -4,6 +4,7 @@
   import Form from '../../components/Contact/Form/Form.svelte';
   import Reviews from '../../components/Reviews/Reviews.svelte';
   import Footer from '../../components/Footer/Footer.svelte';
+  import Header from '../Header.svelte';
 </script>
 
 <svelte:head>
@@ -12,6 +13,7 @@
 </svelte:head>
 
 <div>
+  <Header {t} servicesScrollToView={null} isHome={false} />
   <Landing {t} />
   <Form {t} />
   <Reviews {t} />

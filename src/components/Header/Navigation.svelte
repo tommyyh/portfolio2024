@@ -3,6 +3,8 @@
   import { loadTranslations } from '$lib/lang/translations';
   export let menuActive;
   export let t;
+  export let servicesScrollToView;
+  export let isHome;
 
   let lang;
 
@@ -37,11 +39,23 @@
       <li aria-current={$page.url.pathname === '/work' ? 'page' : undefined}>
         <a href="/work" on:click={onClick}>{$t(`${lang}.work`)}</a>
       </li>
-      <li
-        aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
-      >
-        <a href="" on:click={onClick}>{$t(`${lang}.services`)}</a>
-      </li>
+      {#if isHome}
+        <li
+          aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
+          on:click={() => {
+            onClick();
+            servicesScrollToView();
+          }}
+        >
+          {$t(`${lang}.services`)}
+        </li>
+      {:else}
+        <li
+          aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
+        >
+          <a href="/" on:click={onClick}>{$t(`${lang}.services`)}</a>
+        </li>
+      {/if}
       <li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
         <a href="/contact" on:click={onClick}>{$t(`${lang}.contact`)}</a>
       </li>
@@ -80,6 +94,7 @@
         font-size: 1.82rem;
         font-weight: 600;
         list-style-type: none;
+        color: var(--primary);
       }
 
       a {

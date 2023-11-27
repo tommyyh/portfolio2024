@@ -5,6 +5,8 @@
   import DesktopNavigation from '../components/Header/DesktopNavigation.svelte';
   import { onMount } from 'svelte';
   export let t;
+  export let servicesScrollToView;
+  export let isHome;
 
   $: menuActive = false;
   $: upActive = false;
@@ -54,8 +56,8 @@
       <div class="menu-line" />
     </button>
 
-    <Navigation {t} {menuActive} />
-    <DesktopNavigation {t} />
+    <Navigation {t} {menuActive} {servicesScrollToView} {isHome} />
+    <DesktopNavigation {t} {servicesScrollToView} {isHome} />
 
     <div class={upActive ? 'up up-active' : 'up'} on:click={scrollUp}>
       <img src={chevronDownSvg} alt="chevron down" />

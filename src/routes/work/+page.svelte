@@ -3,6 +3,7 @@
   import Work from '../../components/Work/Work/Work.svelte';
   import Reviews from '../../components/Reviews/Reviews.svelte';
   import Footer from '../../components/Footer/Footer.svelte';
+  import Header from '../Header.svelte';
 </script>
 
 <svelte:head>
@@ -11,6 +12,7 @@
 </svelte:head>
 
 <div>
+  <Header {t} servicesScrollToView={null} isHome={false} />
   <Work {t} />
   <Reviews {t} />
   <Footer {t} />

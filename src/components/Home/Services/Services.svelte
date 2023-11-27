@@ -1,10 +1,18 @@
 <script>
+  import { onMount } from 'svelte';
   import Service from './Service.svelte';
   export let t;
+
+  export let servicesDistance = 0;
+  let cont;
+
+  onMount(() => {
+    servicesDistance = cont;
+  });
 </script>
 
 <div class="cont">
-  <section id="services">
+  <section id="services" bind:this={cont}>
     <div class="content">
       <div>
         <h4>{$t('home.services.sub')}</h4>

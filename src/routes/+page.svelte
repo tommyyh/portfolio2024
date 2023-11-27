@@ -10,6 +10,17 @@
   import Reviews from '../components/Reviews/Reviews.svelte';
   import FAQ from '../components/FAQ/FAQ.svelte';
   import Footer from '../components/Footer/Footer.svelte';
+  import Header from './Header.svelte';
+
+  let servicesDistance;
+
+  const servicesScrollToView = () => {
+    if (screen.width > 1025) {
+      servicesDistance.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      servicesDistance.scrollIntoView();
+    }
+  };
 </script>
 
 <svelte:head>
@@ -18,11 +29,12 @@
 </svelte:head>
 
 <div>
+  <Header {t} {servicesScrollToView} isHome={true} />
   <Landing {t} />
   <Showcase />
   <Whyus {t} />
   <Work {t} />
-  <Services {t} />
+  <Services {t} bind:servicesDistance />
   <ForWhom {t} />
   <Process {t} />
   <Reviews {t} />
