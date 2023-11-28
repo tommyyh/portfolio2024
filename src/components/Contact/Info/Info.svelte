@@ -45,6 +45,10 @@
       a {
         color: var(--sub2);
         text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }

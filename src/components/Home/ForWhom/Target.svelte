@@ -73,6 +73,11 @@
 
     background: var(--forWhom-bg);
     border-radius: 0.67em;
+    transition: 300ms ease;
+
+    &:hover {
+      box-shadow: 0px 4px 39px 0px rgba(0, 0, 0, 0.17);
+    }
 
     img {
       margin: 0 0 0 -3px;

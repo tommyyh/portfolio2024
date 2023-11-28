@@ -98,6 +98,11 @@
         border-radius: 5em;
         text-decoration: none;
         border: none;
+        transition: 300ms ease;
+
+        &:hover {
+          box-shadow: 0px 4px 39px 0px rgba(0, 0, 0, 0.33);
+        }
       }
     }
 

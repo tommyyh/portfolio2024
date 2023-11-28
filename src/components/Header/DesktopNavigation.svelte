@@ -70,6 +70,10 @@
       font-size: 0.975rem;
       font-weight: 400;
       cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     a {

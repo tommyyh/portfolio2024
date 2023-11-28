@@ -134,7 +134,9 @@
     border-radius: 14px;
     z-index: 650;
     box-shadow: 0px 4px 31px 0px rgba(255, 255, 255, 0.55);
-    transition: max-width 0.35s ease-out, opacity 0.25s ease-out;
+    transition:
+      max-width 0.35s ease-out,
+      opacity 0.25s ease-out;
     opacity: 0;
   }
 
@@ -211,6 +213,11 @@
         font-weight: 500;
         padding: 0.8rem 1.9rem;
         text-decoration: none;
+        transition: 300ms ease;
+
+        &:hover {
+          box-shadow: 0px 4px 39px 0px rgba(0, 0, 0, 0.29);
+        }
       }
     }
 

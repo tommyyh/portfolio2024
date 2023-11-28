@@ -63,22 +63,6 @@
     &:first-child {
       margin: 2.8em 0 0 0;
     }
-
-    // &:nth-child(2) .cta {
-    //   background: var(--faq-2);
-    // }
-
-    // &:nth-child(3) .cta {
-    //   background: var(--faq-3);
-    // }
-
-    // &:nth-child(5) .cta {
-    //   background: var(--faq-2);
-    // }
-
-    // &:nth-child(6) .cta {
-    //   background: var(--faq-3);
-    // }
   }
 
   .question-open {
@@ -173,6 +157,11 @@
       box-shadow: 0px 4px 73px 0px rgba(0, 0, 0, 0.14);
       transition: ease 300ms;
       cursor: pointer;
+      transition: 300ms ease;
+
+      &:hover {
+        box-shadow: 0px 4px 74px 0px rgba(0, 0, 0, 0.3);
+      }
 
       &:first-child {
         margin: 0.85em 0 0 0;

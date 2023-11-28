@@ -202,6 +202,11 @@
         color: var(--accent);
         text-decoration: none;
         border-radius: 4em;
+        transition: 300ms ease;
+
+        &:hover {
+          box-shadow: 0px 4px 35px 0px rgba(255, 255, 255, 0.22);
+        }
       }
     }
 

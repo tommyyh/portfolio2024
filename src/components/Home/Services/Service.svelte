@@ -171,6 +171,11 @@
       border-radius: 50%;
       background: var(--accent);
       text-decoration: none;
+      transition: 300ms ease;
+
+      &:hover {
+        box-shadow: 0px 4px 39px 0px rgba(0, 0, 0, 0.35);
+      }
 
       h6 {
         margin: -1.05px 0 0 0;

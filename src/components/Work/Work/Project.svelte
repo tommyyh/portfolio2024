@@ -53,6 +53,8 @@
               alt={'efefefe'}
               customClass="image"
             />
+
+            <div class="open"></div>
           </a>
         {/await}
       {/each}
@@ -72,6 +74,8 @@
               alt={'efefefe'}
               customClass="image"
             />
+
+            <div class="open"></div>
           </a>
         {/await}
       {/each}
@@ -156,6 +160,7 @@
 
       a {
         margin: 0 1.9rem 0 0;
+        position: relative;
       }
     }
 
@@ -212,6 +217,11 @@
 
       object-fit: cover;
       box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.25);
+      transition: 300ms ease;
+
+      &:hover {
+        box-shadow: 0px 4px 120px 0px rgba(0, 0, 0, 0.38);
+      }
     }
   }
 </style>
