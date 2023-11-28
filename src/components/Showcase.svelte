@@ -122,33 +122,35 @@
   });
 </script>
 
-<section bind:this={sectionEl}>
-  <div class="showcase1" bind:this={showcase1El}>
-    {#each showcase1Images as image (image)}
-      <a href={image.link} target="_blank">
-        <Image
-          src={image.src}
-          alt={image.alt}
-          blurredSrc={image.blurredSrc}
-          customClass="showcase1-image"
-        />
-      </a>
-    {/each}
-  </div>
+<div class="cont">
+  <section bind:this={sectionEl}>
+    <div class="showcase1" bind:this={showcase1El}>
+      {#each showcase1Images as image (image)}
+        <a href={image.link} target="_blank">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            blurredSrc={image.blurredSrc}
+            customClass="showcase1-image"
+          />
+        </a>
+      {/each}
+    </div>
 
-  <div class="showcase2" bind:this={showcase2El}>
-    {#each showcase2Images as image (image)}
-      <a href={image.link} target="_blank">
-        <Image
-          src={image.src}
-          alt={image.alt}
-          blurredSrc={image.blurredSrc}
-          customClass="showcase2-image"
-        />
-      </a>
-    {/each}
-  </div>
-</section>
+    <div class="showcase2" bind:this={showcase2El}>
+      {#each showcase2Images as image (image)}
+        <a href={image.link} target="_blank">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            blurredSrc={image.blurredSrc}
+            customClass="showcase2-image"
+          />
+        </a>
+      {/each}
+    </div>
+  </section>
+</div>
 
 <style lang="scss">
   section {
@@ -203,12 +205,19 @@
   }
 
   @media all and (min-width: 1025px) {
+    .cont {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      position: relative;
+    }
+
     section {
       display: flex;
       // overflow-x: scroll;
       overflow-x: hidden;
 
-      // width: (38.31rem * 6) + (1.2rem * 6);
+      max-width: (38.31rem * 7) + (1.2rem * 6);
       padding: 0 0 0.8rem 0;
       margin: 1.5em 0 0 0;
       box-shadow: 0px 4px 170px 0px rgba(0, 0, 0, 0.23);
