@@ -35,7 +35,6 @@
       </li>
       {#if isHome}
         <li
-          aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
           on:click={() => {
             onClick();
             servicesScrollToView();
@@ -44,9 +43,7 @@
           {$t(`${lang}.services`)}
         </li>
       {:else}
-        <li
-          aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
-        >
+        <li>
           <a href="/" on:click={onClick}>{$t(`${lang}.services`)}</a>
         </li>
       {/if}

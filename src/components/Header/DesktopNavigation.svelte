@@ -28,16 +28,11 @@
       <a href="/work">{$t(`${lang}.work`)}</a>
     </li>
     {#if isHome}
-      <li
-        aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
-        on:click={servicesScrollToView}
-      >
+      <li on:click={servicesScrollToView}>
         {$t(`${lang}.services`)}
       </li>
     {:else}
-      <li
-        aria-current={$page.url.pathname === '/services' ? 'page' : undefined}
-      >
+      <li>
         <a href="/">{$t(`${lang}.services`)}</a>
       </li>
     {/if}
