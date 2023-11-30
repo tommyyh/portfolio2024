@@ -1,5 +1,6 @@
 <script>
-  import { t } from '$lib/lang/translations';
+  // import { t } from '$lib/lang/translations';
+  import { t, locale, locales } from '$lib/translations/index.js';
   import Landing from '../components/Home/Landing/Landing.svelte';
   import Showcase from '../components/Showcase.svelte';
   import Whyus from '../components/Home/Whyus/Whyus.svelte';

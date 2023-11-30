@@ -1,6 +1,7 @@
 <script>
   import { page } from '$app/stores';
-  import { loadTranslations } from '$lib/lang/translations';
+  import { goto } from '$app/navigation';
+  import { locale, locales } from '$lib/translations';
   export let menuActive;
   export let t;
   export let servicesScrollToView;
@@ -17,13 +18,6 @@
   } else {
     lang = 'home.header';
   }
-
-  const onChange = async (e) => {
-    const locale = e.target.value;
-
-    await loadTranslations(locale, '/'); // keep this just before the `return`
-    menuActive = false;
-  };
 
   const onClick = async (e) => {
     menuActive = false;
@@ -62,9 +56,17 @@
     </ul>
 
     <div class="custom-select">
-      <select name="lang" on:change={onChange}>
-        <option value="en">{$t(`${lang}.english`)}</option>
-        <option value="cs">{$t(`${lang}.czech`)}</option>
+      <select
+        on:change={({ currentTarget }) => {
+          goto(new URL(`?lang=${currentTarget.value}`, `${$page.url.href}`));
+          menuActive = false;
+        }}
+      >
+        {#each $locales as value}
+          <option {value} selected={value === $locale}
+            >{$t(`lang.${value}`)}</option
+          >
+        {/each}
       </select>
     </div>
   </div>

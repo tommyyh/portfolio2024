@@ -1,5 +1,5 @@
 <script>
-  import { t } from '$lib/lang/translations';
+  import { t, locale, locales } from '$lib/translations/index.js';
   import Landing from '../../components/Contact/Landing/Landing.svelte';
   import Form from '../../components/Contact/Form/Form.svelte';
   import Reviews from '../../components/Reviews/Reviews.svelte';
