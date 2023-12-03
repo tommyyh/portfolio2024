@@ -8,7 +8,11 @@
     "czech": "Čeština"
   },
   "head": {
-    "title": "Web Agency - Tommy Hoang"
+    "domain": "https://www.tommyhoang.me",
+    "title": "Our Previous Work With Satisfied Client All Over The World · Tommy Hoang",
+    "desc": "Take a look at our previous works with our satisfied customer who were able to find new clients and make more profit, that they couldn't before.",
+    "keywords": "Web development, Web redesign, Web design, E-shop development, Brochure site, Web developer, Beautiful Websites, Professional Websites, Website, Create a website",
+    "author": "https://github.com/tommyyh"
   },
   "work": {
     "amount": "7",

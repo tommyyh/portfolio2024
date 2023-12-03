@@ -8,7 +8,11 @@
     "czech": "Čeština"
   },
   "head": {
-    "title": "Webová Agentura - Tommy Hoang"
+    "domain": "https://www.tommyhoang.me",
+    "title": "Naše předchozí práce se spokojeným klientama po celém světě · Tommy Hoang",
+    "desc": "Podívejte se na naše předchozí práce s našimi spokojenými zákazníky, kteří dokázali najít nové klienty a dosáhnout většího zisku, kterého dříve nemohli dosáhnout.",
+    "keywords": "Tvorba webových stránek, Redesign webu, Design webu, Tvorba e-shopu, Tvorba brožur, Tvůrce webu, Tvorba webových stránek, Profesionální webové stránky, Webové stránky, Vytvoření webových stránek",
+    "author": "https://github.com/tommyyh"
   },
   "work": {
     "amount": "7",

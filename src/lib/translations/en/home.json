@@ -8,7 +8,11 @@
     "czech": "Čeština"
   },
   "head": {
-    "title": "Web Agency - Tommy Hoang"
+    "domain": "https://www.tommyhoang.me",
+    "title": "Beautiful Websites, That Will Increase Your Business's Sales · Tommy Hoang",
+    "desc": "Professional web development and web redesign services worldwide. From E-shops to brochure websites you'll find what you're looking for.",
+    "keywords": "Web development, Web redesign, Web design, E-shop development, Brochure site, Web developer, Beautiful Websites, Professional Websites, Website, Create a website",
+    "author": "https://github.com/tommyyh"
   },
   "landing": {
     "sub": "Web Development & Design",

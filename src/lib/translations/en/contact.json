@@ -8,7 +8,11 @@
     "czech": "Čeština"
   },
   "head": {
-    "title": "Web Agency - Tommy Hoang"
+    "domain": "https://www.tommyhoang.me",
+    "title": "Contact Us Today And Ensure Your Company’s Success · Tommy Hoang",
+    "desc": "Get in touch with us today and ensure, that your company makes more profit with a new beautiful website.",
+    "keywords": "Web development, Web redesign, Web design, E-shop development, Brochure site, Web developer, Beautiful Websites, Professional Websites, Website, Create a website",
+    "author": "https://github.com/tommyyh"
   },
   "landing": {
     "sub": "Get In Touch With Us",
