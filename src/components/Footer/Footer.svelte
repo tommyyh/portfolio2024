@@ -50,7 +50,7 @@
         <a href="https://www.instagram.com/tommyy.hoang/"
           ><img src={instagramSvg} alt="Instagram" /></a
         >
-        <a href=""><img src={linkedInSvg} alt="LinkedIn" /></a>
+        <a href="https://www.linkedin.com/in/tommy-hoang-665020205"><img src={linkedInSvg} alt="LinkedIn" /></a>
         <a href=""><img src={tiktokSvg} alt="Tik Tok" /></a>
         <a href=""><img src={twitterSvg} alt="Twitter" /></a>
       </div>
