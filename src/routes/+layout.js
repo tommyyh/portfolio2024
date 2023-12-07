@@ -1,24 +1,13 @@
-// import { loadTranslations } from '$lib/lang/translations.js';
-
-// /** @type {import('@sveltejs/kit').Load} */
-// export const load = async ({ url }) => {
-//   const { pathname } = url;
-
-//   console.log('kokot');
-//   console.log(url);
-
-//   const initLocale = 'en'; // get from cookie, user session, ...
-
-//   await loadTranslations(initLocale, pathname); // keep this just before the `return`
-
-//   return {};
-// };
+import { dev } from '$app/environment';
+import { inject } from '@vercel/analytics';
 
 import {
   addTranslations,
   setLocale,
   setRoute,
 } from '$lib/translations/index.js';
+
+inject({ mode: dev ? 'development' : 'production' });
 
 /** @type {import('@sveltejs/kit').Load} */
 export const load = async ({ data }) => {

@@ -20,6 +20,7 @@
   "description": "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).",
   "main": "svelte.config.js",
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
     "acorn": "^8.10.0",
     "aria-query": "^5.3.0",
     "axobject-query": "^3.2.1",
