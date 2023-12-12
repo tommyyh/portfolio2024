@@ -12,6 +12,7 @@
   import FAQ from '../components/FAQ/FAQ.svelte';
   import Footer from '../components/Footer/Footer.svelte';
   import Header from './Header.svelte';
+  import thumbnailPng from '$lib/images/thumbnail.png';
 
   let servicesDistance;
 
@@ -45,6 +46,7 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="datePublished" content="2023-12-3" />
   <meta name="dateModified" content="2023-12-4" />
+  <meta property="og:image" content={thumbnailPng} />
 </svelte:head>
 
 <div>
